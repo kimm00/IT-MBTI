@@ -53,7 +53,7 @@ It is a helpful tool for discovering interests and setting career directions in 
 
 ---
 
-## Set Up
+## 🏃🏻Set Up
 
 Follow the instructions below to set up the project and run it locally:
 
@@ -69,7 +69,8 @@ $ npm run start
 
 ## 🤝 Contributing
 We welcome contributions!
-For more details, check the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+For more details, check the [CONTRIBUTING.md](./CONTRIBUTING.md) file
+and [COMMIT_MESSAGE_CONVENTION.md](./COMMIT_MESSAGE_CONVENTION.md) file!
 
 ---
 
