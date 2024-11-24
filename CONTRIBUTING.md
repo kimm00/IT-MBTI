@@ -7,7 +7,7 @@ This document will guide you through the process.
 
 ---
 
-## 🔧 Contributing Pull Requests
+## 🛠 Contributing Pull Requests
 1. Fork the repository:
 
    Click the "Fork" button on the top-right corner of the repository page on GitHub.
