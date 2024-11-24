@@ -12,13 +12,21 @@ IT-MBTI is a tool that analyzes the user's answers based on the MBTI test format
 
 
 ## 📖 Table of Contents
+- [Tech Stack](#tech-stack)
 - [Who Is This For](#who-is-this-for)
 - [About](#about)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
+- 
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+---
+
+## 🔧 Tech Stack
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Styled-Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
 
 ---
 
@@ -45,10 +53,25 @@ It is a helpful tool for discovering interests and setting career directions in 
 
 ---
 
-## 🔧 Tech Stack
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Styled-Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
+## Set Up
+
+Follow the instructions below to set up the project and run it locally:
+
+```sh
+# Clone the repository
+$ git clone https://github.com/OSS-TeamProjectt/IT-MBTI.git
+
+# Navigate into the project directory
+$ cd IT-MBTI
+
+# Install dependencies
+$ npm install
+
+# Build the project
+$ npm run build
+
+# Run the application
+$ npm run start
 
 ---
 
