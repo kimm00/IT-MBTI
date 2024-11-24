@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6948526c-5c9d-49d5-a0e9-67e135fb1bcf" alt="Image" width="400" height="110">
+</p>
+
 # IT-MBTI
 IT-MBTI is a tool that analyzes the user's answers based on the MBTI test format and recommends the best career path in the IT field.
 
@@ -63,6 +67,6 @@ For more details, check the [LICENSE](./LICENSE) file.
 ## 📬 Contact
 If you have any questions or suggestions, please contact us at:
 - e-mail: [ITMBTI@gmail.com]
-- GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI//repository/issues)
+- GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI/repository/issues)
 
 ---
