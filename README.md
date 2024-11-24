@@ -5,9 +5,9 @@
 # IT-MBTI
 IT-MBTI is a tool that analyzes the user's answers based on the MBTI test format and recommends the best career path in the IT field.
 
-<img alt="냐냥_1" src="https://github.com/user-attachments/assets/901998ec-1026-453a-b2c6-ab25c598c2c6" width="300" height="180">
-<img alt="냐냥_2" src="https://github.com/user-attachments/assets/5978e6f9-b7bf-43d2-b889-782ba65c2656" width="300" height="180">
-<img alt="냐냥_3" src="https://github.com/user-attachments/assets/7755d28e-fcb3-446e-b297-684dd99d662f" width="300" height="180">
+<img alt="냐냥_1" src="https://github.com/user-attachments/assets/901998ec-1026-453a-b2c6-ab25c598c2c6" width="280" height="180">
+<img alt="냐냥_2" src="https://github.com/user-attachments/assets/5978e6f9-b7bf-43d2-b889-782ba65c2656" width="280" height="180">
+<img alt="냐냥_3" src="https://github.com/user-attachments/assets/7755d28e-fcb3-446e-b297-684dd99d662f" width="280" height="180">
 
 
 
