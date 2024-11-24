@@ -1,6 +1,9 @@
 # Contributing to IT-MBTI
 We appreciate your interest in contributing to IT-MBTI!
-Contributions are what make open-source projects great. This document will guide you through the process. 
+
+Contributions are what make open-source projects great. 
+
+This document will guide you through the process. 
 
 ---
 
