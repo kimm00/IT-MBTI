@@ -1,47 +1,68 @@
-# 프로젝트 이름
+# IT-MBTI
+IT-MBTI is a tool that analyzes the user's answers based on the MBTI test format and recommends the best career path in the IT field.
 
-![스크린샷](링크 또는 로컬 이미지 경로)
 
-## Table of Contents
-- [About](#about)
+## 📖 Table of Contents
 - [Who Is This For](#who-is-this-for)
+- [About](#about)
 - [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
+- [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Roadmap](#roadmap)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
-## Who Is This For
-이 문서는 다음과 같은 대상에 맞춰 작성되었습니다:
-- 프로젝트에 기여하고자 하는 개발자.
-- 이 도구를 사용해 특정 문제를 해결하려는 사용자.
-- 프로젝트의 기능과 사용 방법에 대해 배우고자 하는 학생 및 연구자.
+## 🎯 Who Is This For
+This document is written for:
+- Developers who want to contribute to the project.
+- Users looking to solve specific problems using this tool.
+- Students and researchers who want to learn about the project’s features and how to use it.
 
 ---
 
-## About
-[프로젝트 이름]은/는 [문제/목적]을 해결하기 위해 만들어진 [오픈소스 도구/플랫폼/라이브러리]입니다.
-
-- 주요 기능 1
-- 주요 기능 2
-- 주요 기능 3
+## 🔍 About
+IT-MBTI is a tool designed to help users explore their career aptitude in the IT field.
+Inspired by the MBTI test format, users answer questions, and based on their scores, the tool recommends the most suitable IT career path.
+It is a helpful tool for discovering interests and setting career directions in IT.
 
 ---
 
-## Getting Started
+## 🚀 Features
+- Career Aptitude Test: Evaluate your aptitude for 7 IT career paths through specific questions.
+- Personalized Results: Recommend the most suitable IT career path based on your score.
+- Simple Question Format: Users respond on a 5-point scale to express their preferences easily.
+- User-Friendly Interface: Designed to be intuitive and easy for everyone to use.
 
-### Prerequisites
-- [필요 소프트웨어 1] (예: Node.js, Python)
-- [필요 소프트웨어 2]
+---
 
-### Installation
-1. 리포지토리를 클론합니다:
-   ```bash
-   git clone https://github.com/username/project-name.git
-   cd project-name
+## 🛠️ Tech Stack
+- React
+- Javascript
+- Styled-Components
+
+---
+
+## 🤝 Contributing
+We welcome contributions!
+For more details, check the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. 
+For more details, check the [LICENSE](./LICENSE) file.
+
+### Commercial uses
+- Business Model: This project does not include a business model aimed at generating revenue.
+- License Type: The MIT License allows all uses, including commercial use.
+- Corporate Support: This project is not supported or owned by any specific company.
+
+---
+
+## 📬 Contact
+If you have any questions or suggestions, please contact us at:
+- e-mail: [ITMBTI@gmail.com]
+- GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI//repository/issues)
+
+---
