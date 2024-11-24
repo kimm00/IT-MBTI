@@ -67,6 +67,6 @@ For more details, check the [LICENSE](./LICENSE) file.
 ## 📬 Contact
 If you have any questions or suggestions, please contact us at:
 - e-mail: [ITMBTI@gmail.com]
-- GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI/repository/issues)
+- GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI/issues)
 
 ---
