@@ -16,7 +16,7 @@ IT-MBTI is a tool that analyzes the user's answers based on the MBTI test format
 - [Who Is This For](#who-is-this-for)
 - [About](#about)
 - [Features](#features)
-- 
+- [Set Up](#set-up)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -58,20 +58,12 @@ It is a helpful tool for discovering interests and setting career directions in 
 Follow the instructions below to set up the project and run it locally:
 
 ```sh
-# Clone the repository
 $ git clone https://github.com/OSS-TeamProjectt/IT-MBTI.git
-
-# Navigate into the project directory
 $ cd IT-MBTI
-
-# Install dependencies
 $ npm install
-
-# Build the project
 $ npm run build
-
-# Run the application
 $ npm run start
+```
 
 ---
 
