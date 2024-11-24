@@ -1,6 +1,6 @@
 # Contributing to IT-MBTI
 We appreciate your interest in contributing to IT-MBTI!
-Contributions are what make open-source projects great. Whether you want to report a bug, propose a feature, or submit a pull request, this document will guide you through the process. 
+Contributions are what make open-source projects great. This document will guide you through the process. 
 
 ---
 
@@ -48,4 +48,5 @@ Unit tests ensure the project's reliability and help prevent regressions in futu
 
 ## 🙏 Thank you
 Thank you for contributing to IT-MBTI! We look forward to collaborating with you to make this project better for everyone. 
+
 — The IT-MBTI Development Team
