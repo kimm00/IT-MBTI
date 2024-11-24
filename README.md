@@ -40,10 +40,10 @@ It is a helpful tool for discovering interests and setting career directions in 
 
 ---
 
-## 🛠️ Tech Stack
-- React
-- Javascript
-- Styled-Components
+## 🔧 Tech Stack
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Styled-Components](https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
 
 ---
 
