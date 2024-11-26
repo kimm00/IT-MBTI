@@ -69,8 +69,10 @@ $ npm run start
 
 ## 🤝 Contributing
 We welcome contributions!
-For more details, check the [CONTRIBUTING.md](./CONTRIBUTING.md) file
-and [COMMIT_MESSAGE_CONVENTION.md](./COMMIT_MESSAGE_CONVENTION.md) file!
+For more details, check the 
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [COMMIT_MESSAGE_CONVENTION.md](./COMMIT_MESSAGE_CONVENTION.md)
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
 
 ---
 
