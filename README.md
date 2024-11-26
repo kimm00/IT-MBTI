@@ -89,5 +89,6 @@ For more details, check the [LICENSE](./LICENSE) file.
 If you have any questions or suggestions, please contact us at:
 - e-mail: [ITMBTI@gmail.com]
 - GitHub Issues: [Issues](https://github.com/OSS-TeamProjectt/IT-MBTI/issues)
-
+- GitHub Discussion: [Disussion](https://github.com/OSS-TeamProjectt/IT-MBTI/discussions)
+- Slack: [Slack](https://join.slack.com/t/itmbti/shared_invite/zt-2v18olu5y-Ukg4gNxEeWflyGDm0vhIEw)
 ---
