@@ -73,7 +73,7 @@ function StartPage() {
   return (
     <Page>
       <Container>
-        <Title>IT MBTI</Title>
+        <Title>IT-MBTI</Title>
         <Description>Ever wondered if you're a **code-slinging genius** who can bend the digital world to your will,  
         or a **design wizard** crafting user experiences that sparkle with creativity? 🎨💻<br />
         Dive into our IT MBTI test and discover where your hidden tech superpowers lie! 🚀</Description>
