@@ -55,7 +55,6 @@ const StartButton = styled.button`
 
   width: 297px;
   height: 72px;
-
   font-size: 24px;
   color: white;
   background-color: #6c63ff;
@@ -74,8 +73,10 @@ function StartPage() {
   return (
     <Page>
       <Container>
-        <Title>IT MBTI</Title>
-        <Description>This project is a web application for conducting an IT MBTI test, helping users discover their aptitudes and career paths in the IT field. With an intuitive UI and results page.</Description>
+        <Title>IT-MBTI</Title>
+        <Description>Ever wondered if you're a **code-slinging genius** who can bend the digital world to your will,  
+        or a **design wizard** crafting user experiences that sparkle with creativity? 🎨💻<br />
+        Dive into our IT MBTI test and discover where your hidden tech superpowers lie! 🚀</Description>
         <Cat src="/img/startcat.png" alt="Cat" />
         <StartButton onClick={() => navigate("/question")}>Start</StartButton>
       </Container>
