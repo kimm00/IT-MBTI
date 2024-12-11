@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "type": "UI/UX Designer",
+      "question": "Enjoys solving problems with creative ideas."
+    },
+    {
+      "id": 2,
+      "type": "UI/UX Designer",
+      "question": "Interested in creating designs that are intuitive for users to navigate."
+    },
+    {
+      "id": 3,
+      "type": "UI/UX Designer",
+      "question": "Enjoys working with visual elements such as colors, layouts, and typography."
+    },
+    {
+      "id": 4,
+      "type": "Frontend Developer",
+      "question": "Interested in building interfaces for websites and apps."
+    },
+    {
+      "id": 5,
+      "type": "Frontend Developer",
+      "question": "Passionate about languages like HTML, CSS, and JavaScript."
+    },
+    {
+      "id": 6,
+      "type": "Frontend Developer",
+      "question": "Enjoys improving designs with a focus on user experience."
+    },
+    {
+      "id": 7,
+      "type": "Backend Developer",
+      "question": "Interested in designing database and server structures."
+    },
+    {
+      "id": 8,
+      "type": "Backend Developer",
+      "question": "Enjoys solving problems logically and optimizing systems."
+    },
+    {
+      "id": 9,
+      "type": "Backend Developer",
+      "question": "Finds satisfaction in writing efficient code to enhance system performance."
+    },
+    {
+      "id": 10,
+      "type": "DevOps Engineer",
+      "question": "Passionate about system automation and maximizing efficiency."
+    },
+    {
+      "id": 11,
+      "type": "DevOps Engineer",
+      "question": "Values seamless collaboration between development and operations."
+    },
+    {
+      "id": 12,
+      "type": "DevOps Engineer",
+      "question": "Enjoys designing and implementing CI/CD pipelines."
+    },
+    {
+      "id": 13,
+      "type": "Data Analyst",
+      "question": "Loves analyzing numbers and deriving insights from data."
+    },
+    {
+      "id": 14,
+      "type": "Data Analyst",
+      "question": "Enthusiastic about using tools like Excel, Python, and SQL."
+    },
+    {
+      "id": 15,
+      "type": "Data Analyst",
+      "question": "Confident in sharing results through data visualization."
+    },
+    {
+      "id": 16,
+      "type": "IT Strategy Consultant",
+      "question": "Enjoys designing IT solutions to solve business challenges."
+    },
+    {
+      "id": 17,
+      "type": "IT Strategy Consultant",
+      "question": "Loves understanding organizational goals and optimizing plans to achieve them."
+    },
+    {
+      "id": 18,
+      "type": "IT Strategy Consultant",
+      "question": "Prefers roles that combine technical knowledge with business basics."
+    },
+    {
+      "id": 19,
+      "type": "Business Development Manager",
+      "question": "Thrives on discovering new business opportunities and crafting strategies."
+    },
+    {
+      "id": 20,
+      "type": "Business Development Manager",
+      "question": "Confident in collaborating with others to successfully complete projects."
+    },
+    {
+      "id": 21,
+      "type": "Business Development Manager",
+      "question": "Interested in analyzing market trends and applying them to business initiatives."
+    }
+  ]
