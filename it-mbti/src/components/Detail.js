@@ -31,6 +31,25 @@ const WorkDescription = styled.p`
   line-height: 1.5;
 `;
 
+const Job = styled.h3`
+  position: absolute;
+  top: 170px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+`;
+
+const JobDescription = styled.p`
+  position: absolute;
+  top: 210px;
+  left: 25px;
+  right: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+`;
+
 
 function Detail({ type }) {
     const result = results.find((item) => item.type === type) || {};
