@@ -6,7 +6,7 @@ import results from "../data/results.json";
 const SkillContainer = styled.div`
   width: 318px;
   height: 258px;
-  display: flex;
+  display: flex ;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
