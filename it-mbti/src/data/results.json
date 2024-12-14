@@ -25,12 +25,12 @@
   ],
   "professors": [
     {
-      "name": "Professor Jahee Kim",
+      "name": "Jahee Kim",
       "image": "/img/professor/김자희교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02352"
     },
     {
-      "name": "Professor Jeongsik Hong",
+      "name": "Jeongsik Hong",
       "image": "/img/professor/홍정식교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02128"
     }
@@ -63,12 +63,12 @@
 ],
   "professors": [
     {
-      "name": "Professor Wooje Kim",
+      "name": "Wooje Kim",
       "image": "/img/professor/김우제교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02294"
     },
     {
-      "name": "Professor Younghoon Lee",
+      "name": "Younghoon Lee",
       "image": "/img/professor/이영훈교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02575"
     }
@@ -101,12 +101,12 @@
   ],
   "professors": [
     {
-      "name": "Professor Hyukyoon Kwon",
+      "name": "Hyukyoon Kwon",
       "image": "/img/professor/권혁윤교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02534"
     },
     {
-      "name": "Professor Minkyu Shim",
+      "name": "Minkyu Shim",
       "image": "/img/professor/심민규교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02578"
     }
@@ -138,17 +138,12 @@
     }],
     "professors": [
       {
-        "name": "Professor Jaekyung Ahn",
+        "name": "Jaekyung Ahn",
         "image": "/img/professor/안재경교수님.png",
         "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
       },
       {
-        "name": "Professor Hakyeon Lee",
-        "image": "/img/professor/이학연교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
-      },
-      {
-        "name": "Professor Josue Obregon",
+        "name": "Josue Obregon",
         "image": "/img/professor/오브레곤교수님.png",
         "website": " https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
       }
@@ -181,13 +176,13 @@
   ],
   "professors": [
     {
-      "name": "Professor Jaewoong Shim",
+      "name": "Jaewoong Shim",
       "image": "/img/professor/심재웅교수님.png",
       "website": 
 "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02640"
     },
     {
-      "name": "Professor Yangin Yoon",
+      "name": "Yangin Yoon",
       "image": "/img/professor/윤양인교수님.png",
       "website": 
 "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02641"
@@ -221,13 +216,13 @@
   ],
   "professors": [
     {
-      "name": "Professor Hakyeon Lee",
+      "name": "Hakyeon Lee",
       "image": "/img/professor/이학연교수님.png",
       "website": 
 "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
     },
     {
-      "name": "Professor Youngjeong Keum",
+      "name": "Youngjeong Keum",
       "image": "/img/professor/금영정교수님.png",
       "website": 
 "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02489"
@@ -261,12 +256,12 @@
   ],
   "professors": [
     {
-      "name": "Professor Namuk Cho",
+      "name": "Namuk Cho",
       "image": "/img/professor/조남욱교수님.png",
       "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02322"
     },
     {
-      "name": "Professor Jipyo Kim",
+      "name": "Jipyo Kim",
       "image": "/img/professor/김지표교수님.png",
       "website": 
 "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02216"
