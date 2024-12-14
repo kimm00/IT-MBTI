@@ -51,8 +51,54 @@ const JobDescription = styled.p`
 `;
 
 
+const Core = styled.h3`
+  position: absolute;
+  top: 290px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+`;
+
+const CoreDescription = styled.p`
+  position: absolute;
+  top: 330px;
+  left: 25px;
+  font-size: 16px;
+  color: #555;
+`;
+
+const TagsTitle = styled.h3`
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+`;
+
+const TagsContainer = styled.div`
+  position: absolute;
+  top: 440px;
+  left: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+`;
+
+const Tag = styled.span`
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+`;
+
 function Detail({ type }) {
-    const result = results.find((item) => item.type === type) || {};
+  const result = results.find((item) => item.type === type) || {};
+
+
   
     return (
       <DetailContainer>
