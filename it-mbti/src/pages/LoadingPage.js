@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import { useNavigate, useLocation } from "react-router-dom";
 
-// 번갈아 나오는 텍스트 애니메이션
 const fadeInOut = keyframes`
   0% { opacity: 0; }
   50% { opacity: 1; }
