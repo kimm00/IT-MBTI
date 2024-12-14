@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
-// 번갈아 나오는 텍스트 애니메이션
 const fadeInOut = keyframes`
   0% { opacity: 0; }
   50% { opacity: 1; }
@@ -46,36 +45,24 @@ const Spinner = styled.div`
 
 function LoadingPage() {
   const navigate = useNavigate();
-  const types = [
-    "Frontend Developer",
-    "Backend Developer",
-    "UI/UX Designer",
-    "DevOps Engineer",
-    "Data Analyst",
-    "IT Strategy Consultant",
-    "Business Development Manager",
-  ];
+  const location = useLocation();
+  const scores = location.state?.scores || {};
 
   useEffect(() => {
-    // 5초 후에 결과 페이지로 이동
     const timer = setTimeout(() => {
-      navigate("/result");
+      navigate("/result", { state: { scores } });
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [navigate]);
+  }, [navigate, scores]);
 
   return (
-    <Page>
-      <LoadingText>어떤 유형이 나올까요? 🤔</LoadingText>
-      <TypeText>
-        {types.map((type, index) => (
-          <span key={index}>{type}</span>
-        ))}
-      </TypeText>
-      <Spinner />
-    </Page>
-  );
+      <Page>
+        <LoadingText>어떤 유형이 나올까요? 🤔</LoadingText>
+        <Spinner />
+      </Page>
+    );
 }
 
 export default LoadingPage;
+
