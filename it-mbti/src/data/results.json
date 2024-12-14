@@ -1,141 +1,277 @@
-{
-  "results": [
+[
+  {
+    "type": "UI/UX Designer",
+    "catType": "Artistic Scottish Fold Type",
+    "introduction": "Delivers unique user experiences through creative ideas and innovative design.",
+    "jobDescription": "Analyzes user needs and behavior patterns through UX research, and visualizes initial design concepts by creating wireframes and prototypes. Then, designs detailed user interfaces (UI) to provide intuitive and user-friendly digital environments.",
+    "relatedJobs": ["UX Designer", "UI Designer", "Service Designer", "Product Designer"],
+    "coreSkills": ["Creativity", "Usability Testing Skills", "Visual Communication Skills", "Proficiency in Design Software"],
+    "recommendedSkills": [
+      {
+        "name": "Figma",
+        "image": "/img/skill/Figma.png",
+        "website": "https://www.figma.com/"
+      },
+      {
+        "name": "Sketch",
+        "image": "/img/skill/Sketch.png",
+        "website": "https://www.sketch.com/"
+      },
+      {
+        "name": "Adobe XD",
+        "image": "/img/skill/Adobe Xd.png",
+        "website": "https://www.adobe.com/products/xd.html"
+      }
+    ],
+    "professors": [
+      {
+        "name": "Professor Jahee Kim",
+        "image": "/img/professor/김자희교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02352"
+      },
+      {
+        "name": "Professor Jeongsik Hong",
+        "image": "/img/professor/홍정식교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02128"
+      }
+    ],
+    "tags": ["Design", " User Experience", "Creativity", "Prototype"]
+  },
+  {
+    "type": "Frontend Developer",
+    "catType": "Cool-Headed Oriental Shorthair Type",
+    "introduction": "Builds intuitive and user-friendly interfaces with flexible thinking.",
+    "jobDescription": "Develops user interfaces (UI) for websites and applications, ensuring seamless integration with backend systems. Applies responsive web design to provide optimal user experiences across various devices.",
+    "relatedJobs": ["Frontend Developer", "Web Developer", "UI Engineer"],
+    "coreSkills": ["Framework Proficiency", "Responsive Design Implementation"],
+    "recommendedSkills": [
     {
-      "careerType": "UI/UX Designer - Creative Dream Maker",
-      "catType": "Artistic Scottish Fold Type",
-      "careerDescription": "Delivers unique user experiences through creative ideas and innovative design.",
-      "jobDescription": "Analyzes user needs and behavior patterns through UX research, and visualizes initial design concepts by creating wireframes and prototypes. Then, designs detailed user interfaces (UI) to provide intuitive and user-friendly digital environments.",
-      "relatedJobs": ["UX Designer", "UI Designer", "Service Designer", "Product Designer"],
-      "coreSkills": ["Creativity", "Usability Testing Skills", "Visual Communication Skills", "Proficiency in Design Software"],
-      "professors": [
-        {
-          "name": "Professor Jahee Kim",
-          "researchFocus": "Conducts research on text analysis, technology trend analysis, and user experience design, with a focus on UX/UI design and technology trends."
-        },
-        {
-          "name": "Professor Jeongsik Hong",
-          "researchFocus": "Expert in Explainable Data Mining, specializing in optimizing data-driven UI/UX and analyzing user behavior."
-        }
-      ],
-      "recommendedTechnologies": ["Figma", "Adobe Creative Suite", "Sketch", "Usability Testing Tools", "Prototyping Techniques"]
+      "name": "React",
+      "image": "/img/skill/React.png",
+      "website": "https://reactjs.org/"
     },
     {
-      "careerType": "Frontend Developer - Glamorous Stage Director",
-      "catType": "Cool-Headed Oriental Shorthair Type",
-      "careerDescription": "Builds intuitive and user-friendly interfaces with flexible thinking.",
-      "jobDescription": "Develops user interfaces (UI) for websites and applications, ensuring seamless integration with backend systems. Applies responsive web design to provide optimal user experiences across various devices.",
-      "relatedJobs": ["Frontend Developer", "Web Developer", "UI Engineer"],
-      "coreSkills": ["Framework Proficiency", "Responsive Design Implementation"],
-      "professors": [
-        {
-          "name": "Professor Wooje Kim",
-          "researchFocus": "An expert in software engineering and IT services, focusing on efficient user interface development."
-        },
-        {
-          "name": "Professor Younghoon Lee",
-          "researchFocus": "Specializes in natural language processing and recommendation systems to enhance user-customized services on the frontend."
-        }
-      ],
-      "recommendedTechnologies": ["HTML/CSS", "JavaScript", "React", "Vue.js", "Angular", "TypeScript", "Webpack", "CSS Preprocessors (Sass/Less)"]
+      "name": "JavaScript",
+      "image": "/img/skill/JavaScript.png",
+      "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-      "careerType": "Backend Developer - Invisible Maestro",
-      "catType": "Solitary Russian Blue Type",
-      "careerDescription": "Enhances system performance with efficient coding in database design and server optimization.",
-      "jobDescription": "Builds stable system environments through server development, optimizes data storage and retrieval by managing databases efficiently, designs and implements APIs for seamless communication between systems, and strengthens security to ensure data and system safety.",
-      "relatedJobs": ["Backend Developer", "Database Administrator (DBA)", "System Engineer"],
-      "coreSkills": ["Programming Languages", "Database Management", "RESTful API Design", "Server Performance Optimization"],
-      "professors": [
-        {
-          "name": "Professor Hyukyoon Kwon",
-          "researchFocus": "Specializes in distributed/cloud computing and big data processing, focusing on server architecture design and data efficiency."
-        },
-        {
-          "name": "Professor Minkyu Shim",
-          "researchFocus": "Supports stable and efficient backend system design through stochastic processes and financial data modeling."
-        }
-      ],
-      "recommendedTechnologies": ["Java", "Python", "Docker", "Kubernetes", "Node.js", "Django", "MySQL", "SQL", "NoSQL"]
-    },
-    {
-      "careerType": "DevOps Engineer - Automation Magician",
-      "catType": "Independent Bengal Type",
-      "careerDescription": "Maximizes collaboration between development and operations through system automation and CI/CD pipeline design.",
-      "jobDescription": "Writes automation scripts to streamline repetitive tasks, designs CI/CD pipelines to facilitate software development and deployment, and systematically manages cloud environments to build stable and scalable systems.",
-      "relatedJobs": ["DevOps Engineer", "System Administrator", "Cloud Engineer"],
-      "coreSkills": ["Cloud Platforms (AWS, Azure, GCP)", "Scripting (Shell, Python)", "CI/CD Tools (Jenkins, GitHub Actions)"],
+      "name": "HTML/CSS",
+      "image": "/img/skill/HTML,CSS.png",
+      "website": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+    }
+  ],
+    "professors": [
+      {
+        "name": "Professor Wooje Kim",
+        "image": "/img/professor/김우제교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02294"
+      },
+      {
+        "name": "Professor Younghoon Lee",
+        "image": "/img/professor/이영훈교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02575"
+      }
+    ],
+    "tags": ["Programming", "Web development", "UI", "Responsive Design"]
+  },
+  {
+    "type": "Backend Developer",
+    "catType": "Solitary Russian Blue Type",
+    "introduction": "Enhances system performance with efficient coding in database design and server optimization.",
+    "jobDescription": "Builds stable system environments through server development, optimizes data storage and retrieval by managing databases efficiently, designs and implements APIs for seamless communication between systems, and strengthens security to ensure data and system safety.",
+    "relatedJobs": ["Backend Developer", "Database Administrator (DBA)", "System Engineer"],
+    "coreSkills": ["Programming Languages", "Database Management", "RESTful API Design"],
+    "recommendedSkills": [
+      {
+        "name": "Java",
+        "image": "/img/skill/Java.png",
+        "website": "https://www.java.com/"
+      },
+      {
+        "name": "Python",
+        "image": "/img/skill/Python.png",
+        "website": "https://www.python.org/"
+      },
+      {
+        "name": "Node.js",
+        "image": "/img/skill/Nodejs.png",
+        "website": "https://nodejs.org/"
+      }
+    ],
+    "professors": [
+      {
+        "name": "Professor Hyukyoon Kwon",
+        "image": "/img/professor/권혁윤교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02534"
+      },
+      {
+        "name": "Professor Minkyu Shim",
+        "image": "/img/professor/심민규교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02578"
+      }
+    ],
+    "tags": ["Server", "API", "Database", "Backend"]
+  },
+  {
+    "type": "DevOps Engineer",
+    "catType": "Independent Bengal Type",
+    "introduction": " Maximizes collaboration between development and operations through system automation and CI/CD pipeline design.",
+    "jobDescription": "Writes automation scripts to streamline repetitive tasks, designs CI/CD pipelines to facilitate software development and deployment, and systematically manages cloud environments to build stable and scalable systems.",
+    "relatedJobs": ["DevOps Engineer", "System Administrator", "Cloud Engineer"],
+    "coreSkills": ["Cloud Platforms (AWS, Azure, GCP)", "Scripting (Shell, Python)", "CI/CD Tools (Jenkins, GitHub Actions)"],
+    "recommendedSkills": [
+      {
+        "name": "Jenkins",
+        "image": "/img/skill/jenkins.png",
+        "website": "https://www.Jenkins.io/"
+      },
+      {
+        "name": "Docker",
+        "image": "/img/skill/docker.png",
+        "website": "https://www.docker.com/"
+      },
+      {
+        "name": "Kubernetes",
+        "image": "/img/skill/Kubernetes.png",
+        "website": "https://kubernetes.io/"
+      }],
       "professors": [
         {
           "name": "Professor Jaekyung Ahn",
-          "researchFocus": "Specializes in telecommunication management and ICT evaluation, researching IT system automation and operational optimization."
+          "image": "/img/professor/안재경교수님.png",
+          "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
         },
         {
           "name": "Professor Hakyeon Lee",
-          "researchFocus": "Focuses on technology management and data business, researching optimization of DevOps processes."
-        },
+          "image": "/img/professor/이학연교수님.png",
+          "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
+        }
         {
-          "name": "Professor Jose Obregon",
-          "researchFocus": "Specializes in IT system automation and efficiency enhancement, focusing on smart manufacturing and energy sectors."
+          "name": "Professor Josue Obregon",
+          "image": "/img/professor/오브레곤교수님.png",
+          "website": " https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
         }
       ],
-      "recommendedTechnologies": ["Terraform", "Ansible", "Jenkins", "Kubernetes", "AWS/GCP"]
-    },
-    {
-      "careerType": "Data Analyst - Detective of Numbers",
-      "catType": "Curious Sphynx Type",
-      "careerDescription": "Makes insightful decisions based on data and discovers new patterns and opportunities using various analysis tools and techniques.",
-      "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information. Visualizes analysis results using data visualization tools to clearly convey core insights and support data-driven decision-making.",
-      "relatedJobs": ["Data Analyst", "Business Analyst", "Data Scientist"],
-      "coreSkills": ["SQL", "Python/R", "Statistics", "Data Visualization Tools (Tableau, Power BI)"],
-      "professors": [
-        {
-          "name": "Professor Jaewoong Shim",
-          "researchFocus": "Expert in data mining and manufacturing data analysis, deriving insights from complex data and researching analysis techniques."
-        },
-        {
-          "name": "Professor Yangin Yoon",
-          "researchFocus": "Analyzes financial and economic data, researching decision-making and auditing based on big data."
-        }
-      ],
-      "recommendedTechnologies": ["Python (Pandas, NumPy)", "SQL", "Tableau", "Power BI", "R"]
-    },
-    {
-      "careerType": "IT Strategy Consultant - Architect of the Future",
-      "catType": "Strategic Savannah Type",
-      "careerDescription": "Combines technical knowledge and business insight to propose innovative strategies to achieve organizational goals.",
-      "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives. Conducts in-depth evaluations of IT solutions and provides implementation plans tailored to organizational requirements and resources to maximize efficiency and productivity.",
-      "relatedJobs": ["IT Consultant", "Project Manager", "Technology Strategist"],
-      "coreSkills": ["Business Analysis", "Understanding IT Trends", "Problem-Solving Skills", "Presentation Skills"],
-      "professors": [
-        {
-          "name": "Professor Hakyeon Lee",
-          "researchFocus": "Expert in technology management and data business strategies, focusing on developing IT strategies to achieve business goals."
-        },
-        {
-          "name": "Professor Youngjeong Keum",
-          "researchFocus": "Specializes in technology and service planning, researching IT strategy and service optimization."
-        }
-      ],
-      "recommendedTechnologies": ["Microsoft Office Suite (Excel, PowerPoint)", "Jira", "Business Analysis Tools"]
-    },
-    {
-      "careerType": "Business Development Manager - Explorer of Opportunities",
-      "catType": "Playful Abyssinian Type",
-      "careerDescription": "Identifies business opportunities through market trend analysis and strategy development, leading projects to success.",
-      "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration. Designs and executes specific strategies to achieve revenue growth, supporting the organization in reaching its business objectives.",
-      "relatedJobs": ["Business Development Manager", "Sales Manager", "Marketing Strategist"],
-      "coreSkills": ["Communication Skills", "Data Analysis", "Networking Skills", "Negotiation Skills"],
-      "professors": [
-        {
-          "name": "Professor Namuk Cho",
-          "researchFocus": "Specializes in social network analysis and business process management, supporting business opportunity identification and strategic execution."
-        },
-        {
-          "name": "Professor Jipyo Kim",
-          "researchFocus": "Expert in investment engineering and decision analysis, supporting opportunity creation and strategic execution based on data."
-        }
-      ],
-      "recommendedTechnologies": ["CRM Tools (Salesforce, HubSpot)", "Data Analysis Tools", "Presentation Software"]
-    }
-  ]
-}
+    "tags": ["Automation", "CI/CD", "Cloud", "DevOps"]
+  },
+  {
+    "type": "Data Analyst",
+    "catType": "Curious Sphynx Type",
+    "introduction": "Makes insightful decisions based on data and discovers new patterns and opportunities using various analysis tools and techniques.",
+    "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information. Visualizes analysis results using data visualization tools to clearly convey core insights and support data-driven decision-making.",
+    "relatedJobs": ["Data Analyst", "Business Analyst", "Data Scientist"],
+    "coreSkills": ["SQL", "Python/R", "Statistics"],
+    "recommendedSkills": [
+      {
+        "name": "Python",
+        "image": "/img/skill/Python.png",
+        "website": "https://www.python.org/"
+      },
+      {
+        "name": "Tableau",
+        "image": "/img/skill/Tableau.png",
+        "website": "https://www.tableau.com/"
+      },
+      {
+        "name": "Power BI",
+        "image": "/img/skill/PowerBI.png",
+        "website": "https://powerbi.microsoft.com/"
+      }
+    ],
+    "professors": [
+      {
+        "name": "Professor Jaewoong Shim",
+        "image": "/img/professor/심재웅교수님.png",
+        "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02640"
+      },
+      {
+        "name": "Professor Yangin Yoon",
+        "image": "/img/professor/윤양인교수님.png",
+        "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02641"
+      }
+    ],
+    "tags": ["Data", "Analysis", "Statistics", "Visualization"]
+  },
+  {
+    "type": "IT Strategy Consultant",
+    "catType": " Strategic Savannah Type",
+    "introduction": "Combines technical knowledge and business insight to propose innovative strategies to achieve organizational goals.",
+    "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives. Conducts in-depth evaluations of IT solutions and provides implementation plans tailored to organizational requirements and resources to maximize efficiency and productivity.",
+    "relatedJobs": ["IT Consultant", "Project Manager", "Technology Strategist"],
+    "coreSkills": ["Business Analysis", "Understanding IT Trends", "Problem-Solving Skills"]
+    "recommendedSkills": [
+      {
+        "name": "Excel",
+        "image": "/img/skill/Excel.png",
+        "website": "https://www.microsoft.com/en-us/microsoft-365/excel"
+      },
+      {
+        "name": "PowerPoint",
+        "image": "/img/skill/PowerPoint.png",
+        "website": "https://www.microsoft.com/en-us/microsoft-365/powerpoint"
+      },
+      {
+        "name": "Jira",
+        "image": "/img/skill/Jira.png",
+        "website": "https://www.atlassian.com/software/jira"
+      }
+    ],
+    "professors": [
+      {
+        "name": "Professor Hakyeon Lee",
+        "image": "/img/professor/이학연교수님.png",
+        "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
+      },
+      {
+        "name": "Professor Youngjeong Keum",
+        "image": "/img/professor/금영정교수님.png",
+        "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02489"
+      }
+    ],
+    "tags": ["Strategy", "Consulting", "Business", "Technology"]
+  },
+  {
+    "type": "Business Development Manager",
+    "catType": "Playful Abyssinian Type",
+    "introduction": "Identifies business opportunities through market trend analysis and strategy development, leading projects to success.",
+    "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration. Designs and executes specific strategies to achieve revenue growth, supporting the organization in reaching its business objectives.",
+    "relatedJobs": ["Business Development Manager", "Sales Manager", "Marketing Strategist"],
+    "coreSkills": ["Communication Skills", "Data Analysis", "Networking Skills", "Negotiation Skills"],
+    "recommendedSkills": [
+      {
+        "name": "Salesforce",
+        "image": "/img/skill/Salesforce.png",
+        "website": "https://www.salesforce.com/"
+      },
+      {
+        "name": "HubSpot",
+        "image": "/img/skill/HubSpot.png",
+        "website": "https://www.hubspot.com/"
+      },
+      {
+        "name": "Power BI",
+        "image": "/img/skill/PowerBI.png",
+        "website": "https://powerbi.microsoft.com/"
+      }
+    ],
+    "professors": [
+      {
+        "name": "Professor Namuk Cho",
+        "image": "/img/professor/조남욱교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02322"
+      },
+      {
+        "name": "Professor Jipyo Kim",
+        "image": "/img/professor/김지표교수님.png",
+        "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02216"
+      }
+    ],
+    "tags": ["Business", "Sales", "Marketing", "Networking"]
+  }
+]
