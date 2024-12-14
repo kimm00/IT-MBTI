@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import Question from "../components/Question";
+import Question from "../components/Questions";
 import questions from "../data/questions.json"; 
 
 const Container = styled.div`

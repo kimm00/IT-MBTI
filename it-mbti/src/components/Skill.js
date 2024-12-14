@@ -72,3 +72,5 @@ function Skill({ type }) {
     </SkillContainer>
   );
 }
+
+export default Skill;
