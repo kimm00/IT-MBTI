@@ -55,4 +55,4 @@ function Skill({ type }) {
   );
 }
 
-export default Skill;
+export default Skill; 
