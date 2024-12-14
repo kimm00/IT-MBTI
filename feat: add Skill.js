@@ -4,50 +4,40 @@ import results from "../data/results.json";
 
 
 const SkillContainer = styled.div`
+  width: 318px;
+  height: 258px;
+  display: flex;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  overflow-y: auto;
 `;
 
 const SkillTitle = styled.h3`
-  font-size: 23px;
+  font-size: 20px;
   color: #333;
   margin-bottom: 15px;
-  margin-left: 20px;
 `;
 
 const SkillList = styled.ul`
   list-style: none;
   padding: 0;
-  margin-left: 20px;
+  margin: 0;
 `;
 
-const SkillItem = styled.a`
+const SkillItem = styled.li`
   display: flex;
   align-items: center;
-  text-decoration: none;
-  color: inherit;
-  margin-bottom: 13px;
+  margin-bottom: 15px;
   font-size: 1rem;
   color: #333;
-
-  &:hover {
-    color: #6c63ff;
-  }
 `;
 
-const SkillImage = styled.img`
+const Skillimg = styled.img`
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-right: 10px;
-`;
-
-const SkillName = styled.span`
-  font-size: 20px;
 `;
 
 function Skill({ type }) {
@@ -55,20 +45,14 @@ function Skill({ type }) {
 
   return (
     <SkillContainer>
-      <SkillTitle>Recommended Skill</SkillTitle>
-      <SkillList>
+      <SkillTitle>추천 기술</SkillTitle>
+      <ul>
         {result.recommendedSkills?.map((skill, index) => (
-          <SkillItem
-            key={index}
-            href={skill.website}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SkillImage src={skill.image} alt={skill.name} />
-            <SkillName>{skill.name}</SkillName>
-          </SkillItem>
+          <SkillItem key={index}>{skill}</SkillItem>
         )) || <SkillItem>Unknown Skills</SkillItem>}
-      </SkillList>
+      </ul>
     </SkillContainer>
   );
 }
+
+export default Skill;
