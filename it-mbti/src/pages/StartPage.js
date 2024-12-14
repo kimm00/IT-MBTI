@@ -8,59 +8,72 @@ const Page = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
 const Container = styled.div`
   position: relative;
-  width: 1296px;
+  width: 100%;
   height: 863px;
-  background-color: white;
+  background: rgba(232, 234, 243, 0);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+`;
+const Title2 = styled.h1`
+  position: absolute;
+  top: 141px;
+  left: 79px;
+  font-size: 100px;
+  color: Black;
+  margin-bottom: 20px;
+  font-family: "sans-serif";
+  font-weight: 900;
 `;
 
 const Title = styled.h1`
-
-position: absolute;
-  top: 141px;
+  position: absolute;
+  top: 230px;
   left: 79px;
-  font-size: 70px;
-  color: #333;
+  font-size: 100px;
+  color: Black;
   margin-bottom: 20px;
+  font-family: "sans-serif";
+  font-weight: 900;
 `;
 const Description = styled.h1`
-position: absolute;
+  position: absolute;
   width: 700px;
-  top: 320px;
+  top: 390px;
   left: 79px;
   font-size: 30px;
-  color: #333;
+  color: black;
   margin-bottom: 20px;
+  font-family: "GmarketSans";
+  font-weight: 500;
+  
 `;
-const Cat = styled.img`
 
+const Deco2 = styled.img`
  position: absolute;
   top: 123px;
   left: 793px;
-  width: 503px;
-  height: 583px;
+  width: 648px;
+  height: 648px;
   object-fit: cover;
 `;
 
 const StartButton = styled.button`
 
   position: absolute;
-  top: 555px;
+  top: 600px;
   left: 71px;
-
   width: 297px;
   height: 72px;
   font-size: 24px;
   color: white;
-  background-color: #6c63ff;
+  background: black;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  font-weight: 500;
 
   &:hover {
     background-color: #574bff;
@@ -73,11 +86,10 @@ function StartPage() {
   return (
     <Page>
       <Container>
-        <Title>IT-MBTI</Title>
-        <Description>Ever wondered if you're a **code-slinging genius** who can bend the digital world to your will,  
-        or a **design wizard** crafting user experiences that sparkle with creativity? 🎨💻<br />
-        Dive into our IT MBTI test and discover where your hidden tech superpowers lie! 🚀</Description>
-        <Cat src="/img/startcat.png" alt="Cat" />
+        <Title2>What is your</Title2>
+        <Title>IT-MBTI 👩🏻‍💻 </Title>
+        <Description>This project is a web application for conducting an IT MBTI test, helping users discover their aptitudes and career paths in the IT field. With an intuitive UI and results page.</Description>
+        <Deco2 src="/img/python.png" alt="deco2"/>
         <StartButton onClick={() => navigate("/question")}>Start</StartButton>
       </Container>
     </Page>
