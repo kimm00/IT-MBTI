@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import Question from "../components/Questions";
+import Questions from "../components/Questions";
 import questions from "../data/questions.json"; 
 
 const Container = styled.div`
@@ -71,7 +71,7 @@ function QuestionPage() {
       <ProgressBarContainer>
         <Progress percentage={progressPercentage} />
       </ProgressBarContainer>
-      <Question
+      <Questions
         questionText={questions[currentIndex].question}
         onAnswer={(score) => handleAnswer(questions[currentIndex].type, score)}
       />

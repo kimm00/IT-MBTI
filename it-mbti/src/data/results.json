@@ -1,261 +1,277 @@
 [
-  {
-    "type": "UI/UX Designer",
-    "catType": "예술적인 스코티시 폴드형",
-    "introduction": "창의적인 아이디어와 혁신적인 디자인으로 독창적인 사용자 경험을 제공합니다.",
-    "relatedJobs": ["UX 디자이너", "UI 디자이너", "서비스 디자이너", "제품 디자이너"],
-    "coreSkills": ["창의력", "사용성 테스트 능력", "시각적 커뮤니케이션 스킬"],
-    "recommendedSkills": [
-      {
-        "name": "Figma",
-        "image": "/img/skill/Figma.png",
-        "website": "https://www.figma.com/"
-      },
-      {
-        "name": "Sketch",
-        "image": "/img/skill/Sketch.png",
-        "website": "https://www.sketch.com/"
-      },
-      {
-        "name": "Adobe XD",
-        "image": "/img/skill/Adobe Xd.png",
-        "website": "https://www.adobe.com/products/xd.html"
-      }
-    ],
-    "professors": [
-      {
-        "name": "김자희 교수님",
-        "image": "/img/professor/김자희교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02352"
-      },
-      {
-        "name": "홍정식 교수님",
-        "image": "/img/professor/홍정식교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02128"
-      }
-    ],
-    "tags": ["디자인", "사용자 경험", "창의력", "프로토타입"]
-  },
-  {
-    "type": "Frontend Developer",
-    "catType": "냉철한 오리엔탈 숏헤어형",
-    "introduction": "유연한 사고로 직관적이고 사용자 친화적인 인터페이스를 구축합니다.",
-    "relatedJobs": ["프론트엔드 개발자", "웹 개발자", "UI 엔지니어"],
-    "coreSkills": ["프레임워크 사용 능력", "반응형 디자인 구현 능력"],
-    "recommendedSkills": [
+{
+  "type": "UI/UX Designer",
+  "catType": "Artistic Scottish Fold Type",
+  "introduction": "Delivers unique user experiences through creative ideas and innovative design.",
+  "jobDescription": "Analyzes user needs and behavior patterns through UX research, and visualizes initial design concepts by creating wireframes and prototypes. Then, designs detailed user interfaces (UI) to provide intuitive and user-friendly digital environments.",
+  "relatedJobs": ["UX Designer", "UI Designer", "Service Designer", "Product Designer"],
+  "coreSkills": ["Creativity", "Usability Testing Skills", "Visual Communication Skills", "Proficiency in Design Software"],
+  "recommendedSkills": [
     {
-      "name": "React",
-      "image": "/img/skill/React.png",
-      "website": "https://reactjs.org/"
+      "name": "Figma",
+      "image": "/img/skill/Figma.png",
+      "website": "https://www.figma.com/"
     },
     {
-      "name": "JavaScript",
-      "image": "/img/skill/JavaScript.png",
-      "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      "name": "Sketch",
+      "image": "/img/skill/Sketch.png",
+      "website": "https://www.sketch.com/"
     },
     {
-      "name": "HTML/CSS",
-      "image": "/img/skill/HTML,CSS.png",
-      "website": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+      "name": "Adobe XD",
+      "image": "/img/skill/Adobe Xd.png",
+      "website": "https://www.adobe.com/products/xd.html"
     }
   ],
-    "professors": [
-      {
-        "name": "김우제 교수님",
-        "image": "/img/professor/김우제교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02294"
-      },
-      {
-        "name": "이영훈 교수님",
-        "image": "/img/professor/이영훈교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02575"
-      }
-    ],
-    "tags": ["프로그래밍", "웹 개발", "UI", "반응형 디자인"]
+  "professors": [
+    {
+      "name": "Professor Jahee Kim",
+      "image": "/img/professor/김자희교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02352"
+    },
+    {
+      "name": "Professor Jeongsik Hong",
+      "image": "/img/professor/홍정식교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02128"
+    }
+  ],
+  "tags": ["Design", " User Experience", "Creativity", "Prototype"]
+},
+{
+  "type": "Frontend Developer",
+  "catType": "Cool-Headed Oriental Shorthair Type",
+  "introduction": "Builds intuitive and user-friendly interfaces with flexible thinking.",
+  "jobDescription": "Develops user interfaces (UI) for websites and applications, ensuring seamless integration with backend systems. Applies responsive web design to provide optimal user experiences across various devices.",
+  "relatedJobs": ["Frontend Developer", "Web Developer", "UI Engineer"],
+  "coreSkills": ["Framework Proficiency", "Responsive Design Implementation"],
+  "recommendedSkills": [
+  {
+    "name": "React",
+    "image": "/img/skill/React.png",
+    "website": "https://reactjs.org/"
   },
   {
-    "type": "Backend Developer",
-    "catType": "고독한 러시안 블루형",
-    "introduction": "데이터베이스 설계와 서버 구조 최적화로 시스템 성능을 향상시킵니다.",
-    "relatedJobs": ["백엔드 개발자", "데이터베이스 관리자(DBA)", "시스템 엔지니어"],
-    "coreSkills": ["프로그래밍 언어", "데이터베이스 관리", "RESTful API 설계"],
-    "recommendedSkills": [
-      {
-        "name": "Java",
-        "image": "/img/skill/Java.png",
-        "website": "https://www.java.com/"
-      },
-      {
-        "name": "Python",
-        "image": "/img/skill/Python.png",
-        "website": "https://www.python.org/"
-      },
-      {
-        "name": "Node.js",
-        "image": "/img/skill/Nodejs.png",
-        "website": "https://nodejs.org/"
-      }
-    ],
-    "professors": [
-      {
-        "name": "권혁윤 교수님",
-        "image": "/img/professor/권혁윤교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02534"
-      },
-      {
-        "name": "심민규 교수님",
-        "image": "/img/professor/심민규교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02578"
-      }
-    ],
-    "tags": ["서버", "API", "데이터베이스", "백엔드"]
+    "name": "JavaScript",
+    "image": "/img/skill/JavaScript.png",
+    "website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
-    "type": "DevOps Engineer",
-    "catType": "독립적인 벵갈형",
-    "introduction": "시스템 자동화 및 CI/CD 파이프라인 설계를 통해 개발과 운영의 협력을 극대화합니다.",
-    "relatedJobs": ["데브옵스 엔지니어", "시스템 관리자", "클라우드 엔지니어"],
-    "coreSkills": ["클라우드 플랫폼", "스크립트 작성", "CI/CD 툴"],
-    "recommendedSkills": [
-      {
-        "name": "Jenkins",
-        "image": "/img/skill/jenkins.png",
-        "website": "https://www.Jenkins.io/"
-      },
-      {
-        "name": "Docker",
-        "image": "/img/skill/docker.png",
-        "website": "https://www.docker.com/"
-      },
-      {
-        "name": "Kubernetes",
-        "image": "/img/skill/Kubernetes.png",
-        "website": "https://kubernetes.io/"
-      }],
-      "professors": [
-        {
-          "name": "심재웅 교수님",
-          "image": "/img/professor/안재경교수님.png",
-          "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
-        },
-        {
-          "name": "윤양인 교수님",
-          "image": "/img/professor/이학연교수님.png",
-          "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
-        }
-      ],
-    "tags": ["자동화", "CI/CD", "클라우드", "DevOps"]
-  },
-  {
-    "type": "Data Analyst",
-    "catType": "호기심 많은 스핑크스형",
-    "introduction": "데이터를 기반으로 통찰력 있는 결정을 내리고 새로운 기회를 발견합니다.",
-    "relatedJobs": ["데이터 분석가", "비즈니스 분석가", "데이터 사이언티스트"],
-    "coreSkills": ["SQL", "Python/R", "통계학"],
-    "recommendedSkills": [
-      {
-        "name": "Python",
-        "image": "/img/skill/Python.png",
-        "website": "https://www.python.org/"
-      },
-      {
-        "name": "Tableau",
-        "image": "/img/skill/Tableau.png",
-        "website": "https://www.tableau.com/"
-      },
-      {
-        "name": "Power BI",
-        "image": "/img/skill/PowerBI.png",
-        "website": "https://powerbi.microsoft.com/"
-      }
-    ],
-    "professors": [
-      {
-        "name": "심재웅 교수님",
-        "image": "/img/professor/안재경교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
-      },
-      {
-        "name": "윤양인 교수님",
-        "image": "/img/professor/이학연교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
-      }
-    ],
-    "tags": ["데이터", "분석", "통계", "시각화"]
-  },
-  {
-    "type": "IT Strategy Consultant",
-    "catType": "전략적인 사바나형",
-    "introduction": "기술적 지식과 비즈니스 통찰력으로 혁신적인 전략을 제안합니다.",
-    "relatedJobs": ["IT 컨설턴트", "프로젝트 매니저", "기술 전략가"],
-    "coreSkills": ["비즈니스 분석", "IT 트렌드 이해", "문제 해결 능력"],
-    "recommendedSkills": [
-      {
-        "name": "Excel",
-        "image": "/img/skill/Excel.png",
-        "website": "https://www.microsoft.com/en-us/microsoft-365/excel"
-      },
-      {
-        "name": "PowerPoint",
-        "image": "/img/skill/PowerPoint.png",
-        "website": "https://www.microsoft.com/en-us/microsoft-365/powerpoint"
-      },
-      {
-        "name": "Jira",
-        "image": "/img/skill/Jira.png",
-        "website": "https://www.atlassian.com/software/jira"
-      }
-    ],
-    "professors": [
-      {
-        "name": "이학연 교수님",
-        "image": "/img/professor/안재경교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
-      },
-      {
-        "name": "금영정 교수님",
-        "image": "/img/professor/이학연교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
-      }
-    ],
-    "tags": ["전략", "컨설팅", "비즈니스", "기술"]
-  },
-  {
-    "type": "Business Development Manager",
-    "catType": "장난꾸러기 아비시니안형",
-    "introduction": "시장 트렌드 분석과 전략 수립을 통해 비즈니스 기회를 발굴합니다.",
-    "relatedJobs": ["비즈니스 개발 관리자", "영업 관리자", "마케팅 전략가"],
-    "coreSkills": ["커뮤니케이션 능력", "데이터 분석", "네트워킹 스킬"],
-    "recommendedSkills": [
-      {
-        "name": "Salesforce",
-        "image": "/img/skill/Salesforce.png",
-        "website": "https://www.salesforce.com/"
-      },
-      {
-        "name": "HubSpot",
-        "image": "/img/skill/HubSpot.png",
-        "website": "https://www.hubspot.com/"
-      },
-      {
-        "name": "Power BI",
-        "image": "/img/skill/PowerBI.png",
-        "website": "https://powerbi.microsoft.com/"
-      }
-    ],
-    "professors": [
-      {
-        "name": "조남욱 교수님",
-        "image": "/img/professor/안재경교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
-      },
-      {
-        "name": "김지표 교수님",
-        "image": "/img/professor/이학연교수님.png",
-        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
-      }
-    ],
-    "tags": ["비즈니스", "영업", "마케팅", "네트워킹"]
+    "name": "HTML/CSS",
+    "image": "/img/skill/HTML,CSS.png",
+    "website": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
   }
+],
+  "professors": [
+    {
+      "name": "Professor Wooje Kim",
+      "image": "/img/professor/김우제교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02294"
+    },
+    {
+      "name": "Professor Younghoon Lee",
+      "image": "/img/professor/이영훈교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02575"
+    }
+  ],
+  "tags": ["Programming", "Web development", "UI", "Responsive Design"]
+},
+{
+  "type": "Backend Developer",
+  "catType": "Solitary Russian Blue Type",
+  "introduction": "Enhances system performance with efficient coding in database design and server optimization.",
+  "jobDescription": "Builds stable system environments through server development, optimizes data storage and retrieval by managing databases efficiently, designs and implements APIs for seamless communication between systems, and strengthens security to ensure data and system safety.",
+  "relatedJobs": ["Backend Developer", "Database Administrator (DBA)", "System Engineer"],
+  "coreSkills": ["Programming Languages", "Database Management", "RESTful API Design"],
+  "recommendedSkills": [
+    {
+      "name": "Java",
+      "image": "/img/skill/Java.png",
+      "website": "https://www.java.com/"
+    },
+    {
+      "name": "Python",
+      "image": "/img/skill/Python.png",
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "Node.js",
+      "image": "/img/skill/Nodejs.png",
+      "website": "https://nodejs.org/"
+    }
+  ],
+  "professors": [
+    {
+      "name": "Professor Hyukyoon Kwon",
+      "image": "/img/professor/권혁윤교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02534"
+    },
+    {
+      "name": "Professor Minkyu Shim",
+      "image": "/img/professor/심민규교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02578"
+    }
+  ],
+  "tags": ["Server", "API", "Database", "Backend"]
+},
+{
+  "type": "DevOps Engineer",
+  "catType": "Independent Bengal Type",
+  "introduction": " Maximizes collaboration between development and operations through system automation and CI/CD pipeline design.",
+  "jobDescription": "Writes automation scripts to streamline repetitive tasks, designs CI/CD pipelines to facilitate software development and deployment, and systematically manages cloud environments to build stable and scalable systems.",
+  "relatedJobs": ["DevOps Engineer", "System Administrator", "Cloud Engineer"],
+  "coreSkills": ["Cloud Platforms (AWS, Azure, GCP)", "Scripting (Shell, Python)", "CI/CD Tools (Jenkins, GitHub Actions)"],
+  "recommendedSkills": [
+    {
+      "name": "Jenkins",
+      "image": "/img/skill/jenkins.png",
+      "website": "https://www.Jenkins.io/"
+    },
+    {
+      "name": "Docker",
+      "image": "/img/skill/docker.png",
+      "website": "https://www.docker.com/"
+    },
+    {
+      "name": "Kubernetes",
+      "image": "/img/skill/Kubernetes.png",
+      "website": "https://kubernetes.io/"
+    }],
+    "professors": [
+      {
+        "name": "Professor Jaekyung Ahn",
+        "image": "/img/professor/안재경교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02159"
+      },
+      {
+        "name": "Professor Hakyeon Lee",
+        "image": "/img/professor/이학연교수님.png",
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
+      },
+      {
+        "name": "Professor Josue Obregon",
+        "image": "/img/professor/오브레곤교수님.png",
+        "website": " https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
+      }
+    ],
+  "tags": ["Automation", "CI/CD", "Cloud", "DevOps"]
+},
+{
+  "type": "Data Analyst",
+  "catType": "Curious Sphynx Type",
+  "introduction": "Makes insightful decisions based on data and discovers new patterns and opportunities using various analysis tools and techniques.",
+  "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information. Visualizes analysis results using data visualization tools to clearly convey core insights and support data-driven decision-making.",
+  "relatedJobs": ["Data Analyst", "Business Analyst", "Data Scientist"],
+  "coreSkills": ["SQL", "Python/R", "Statistics"],
+  "recommendedSkills": [
+    {
+      "name": "Python",
+      "image": "/img/skill/Python.png",
+      "website": "https://www.python.org/"
+    },
+    {
+      "name": "Tableau",
+      "image": "/img/skill/Tableau.png",
+      "website": "https://www.tableau.com/"
+    },
+    {
+      "name": "Power BI",
+      "image": "/img/skill/PowerBI.png",
+      "website": "https://powerbi.microsoft.com/"
+    }
+  ],
+  "professors": [
+    {
+      "name": "Professor Jaewoong Shim",
+      "image": "/img/professor/심재웅교수님.png",
+      "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02640"
+    },
+    {
+      "name": "Professor Yangin Yoon",
+      "image": "/img/professor/윤양인교수님.png",
+      "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02641"
+    }
+  ],
+  "tags": ["Data", "Analysis", "Statistics", "Visualization"]
+},
+{
+  "type": "IT Strategy Consultant",
+  "catType": " Strategic Savannah Type",
+  "introduction": "Combines technical knowledge and business insight to propose innovative strategies to achieve organizational goals.",
+  "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives. Conducts in-depth evaluations of IT solutions and provides implementation plans tailored to organizational requirements and resources to maximize efficiency and productivity.",
+  "relatedJobs": ["IT Consultant", "Project Manager", "Technology Strategist"],
+  "coreSkills": ["Business Analysis", "Understanding IT Trends", "Problem-Solving Skills"],
+  "recommendedSkills": [
+    {
+      "name": "Excel",
+      "image": "/img/skill/Excel.png",
+      "website": "https://www.microsoft.com/en-us/microsoft-365/excel"
+    },
+    {
+      "name": "PowerPoint",
+      "image": "/img/skill/PowerPoint.png",
+      "website": "https://www.microsoft.com/en-us/microsoft-365/powerpoint"
+    },
+    {
+      "name": "Jira",
+      "image": "/img/skill/Jira.png",
+      "website": "https://www.atlassian.com/software/jira"
+    }
+  ],
+  "professors": [
+    {
+      "name": "Professor Hakyeon Lee",
+      "image": "/img/professor/이학연교수님.png",
+      "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02438"
+    },
+    {
+      "name": "Professor Youngjeong Keum",
+      "image": "/img/professor/금영정교수님.png",
+      "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02489"
+    }
+  ],
+  "tags": ["Strategy", "Consulting", "Business", "Technology"]
+},
+{
+  "type": "Business Development Manager",
+  "catType": "Playful Abyssinian Type",
+  "introduction": "Identifies business opportunities through market trend analysis and strategy development, leading projects to success.",
+  "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration. Designs and executes specific strategies to achieve revenue growth, supporting the organization in reaching its business objectives.",
+  "relatedJobs": ["Business Development Manager", "Sales Manager", "Marketing Strategist"],
+  "coreSkills": ["Communication Skills", "Data Analysis", "Networking Skills", "Negotiation Skills"],
+  "recommendedSkills": [
+    {
+      "name": "Salesforce",
+      "image": "/img/skill/Salesforce.png",
+      "website": "https://www.salesforce.com/"
+    },
+    {
+      "name": "HubSpot",
+      "image": "/img/skill/HubSpot.png",
+      "website": "https://www.hubspot.com/"
+    },
+    {
+      "name": "Power BI",
+      "image": "/img/skill/PowerBI.png",
+      "website": "https://powerbi.microsoft.com/"
+    }
+  ],
+  "professors": [
+    {
+      "name": "Professor Namuk Cho",
+      "image": "/img/professor/조남욱교수님.png",
+      "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02322"
+    },
+    {
+      "name": "Professor Jipyo Kim",
+      "image": "/img/professor/김지표교수님.png",
+      "website": 
+"https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02216"
+    }
+  ],
+  "tags": ["Business", "Sales", "Marketing", "Networking"]
+}
 ]
-  
