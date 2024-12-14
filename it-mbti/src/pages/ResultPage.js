@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react"; 
 import { useLocation } from "react-router-dom";
 import styled from "styled-components";
 import Cat from "../components/Cat";
@@ -13,16 +13,14 @@ const Page = styled.div`
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
 
 const Container = styled.div`
   position: relative;
   width: 1296px;
   height: 863px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: rgba(232, 234, 243, 0);
 `;
 
 const CatPosition = styled.div`
@@ -55,42 +53,83 @@ const SkillPosition = styled.div`
   left: 962px;
 `;
 
+const ButtonContainer = styled.div`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+`;
+
+const NextButton = styled.button`
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:20px;
+
+  &:hover {
+    background-color: #554ecc;
+  }
+`;
+
+
 function ResultPage() {
   const location = useLocation();
   const scores = location.state?.scores || {};
   console.log("Received scores:", scores);
+
+  // Sort scores in descending order
   const sortedTypes = Object.entries(scores).sort((a, b) => b[1] - a[1]);
-  const resultType = sortedTypes.length > 0 ? sortedTypes[0][0] : "Frontend Developer";
+
+  // Filter the types with the highest score
+  const highestScore = sortedTypes[0]?.[1];
+  const highestTypes = sortedTypes.filter(([_, score]) => score === highestScore);
+
+  // Type Index Status to Show Current
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const resultType = highestTypes[currentIndex]?.[0] || "Frontend Developer";
+
+  const handleNextType = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % highestTypes.length);
+  };
 
   return (
     <Page>
       <Container>
 
-        {/* 고양이 컴포넌트 */}
+        {/* Cat components */}
         <CatPosition>
           <Cat title = {resultType}/>
         </CatPosition>
 
-        {/* 상세 정보 컴포넌트 */}
+        {/* Detail Components */}
         <DetailPosition>
           <Detail type={resultType}/>
         </DetailPosition>
 
-        {/* 그래프 컴포넌트 */}
+        {/* Graph Components */}
         <GraphPosition>
           <Graph scores={sortedTypes}/>
         </GraphPosition>
 
-        {/* 교수 컴포넌트 */}
+        {/* Professor Components */}
         <ProfessorPosition>
           <Professor type={resultType} />
         </ProfessorPosition>
 
-        {/* 추천 기술 컴포넌트 */}
+        {/* Skill Components */}
         <SkillPosition>
           <Skill type={resultType} />
         </SkillPosition>
-      </Container>
+
+        {highestTypes.length > 1 && (
+          <ButtonContainer>
+            <NextButton onClick={handleNextType}>More</NextButton>
+          </ButtonContainer>
+        )}
+      </Container>      
     </Page>
   );
 }
