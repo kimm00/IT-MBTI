@@ -6,13 +6,13 @@ import AboutModal from "../components/AboutModal";
 const HeaderSection = styled.header`
   width: 100%;
   height: 150px;
-  background-color: #6c63ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  font-family: "GmarketSans", sans-serif;
+  font-family: "GmarketSans";
+  background: #E8EAF2;
+  color: black;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -26,9 +26,8 @@ const Logo = styled.div`
   align-items: center;
 
   h1 {
-    font-size: 24px;
-    color: #ffffff;
-    margin-left: 10px;
+    font-size: 40px;
+    margin-left: 40px;
     cursor: pointer;
   }
 
@@ -39,7 +38,7 @@ const Logo = styled.div`
 
 const Nav = styled.nav`
   display: flex;
-  gap: 30px;
+  gap: 50px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -49,8 +48,8 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-  font-size: 18px;
-  color: #ffffff;
+  font-size: 30px;
+  color: black;
   text-decoration: none;
   transition: color 0.3s;
 
@@ -60,8 +59,8 @@ const NavLink = styled(Link)`
 `;
 
 const NavItem = styled.span`
-  font-size: 18px;
-  color: #ffffff;
+  font-size: 30px;
+  color: black;
   cursor: pointer;
   transition: color 0.3s;
 
@@ -86,7 +85,6 @@ const Header = () => {
           <NavLink to="/">Home</NavLink>
           <NavItem onClick={openModal}>About</NavItem>
           <NavLink to="/question">Take the Test</NavLink>
-          <NavLink to="/result">Results</NavLink>
         </Nav>
       </HeaderSection>
       {showModal && <AboutModal onClose={closeModal} />}
