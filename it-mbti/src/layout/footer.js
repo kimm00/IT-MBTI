@@ -3,6 +3,10 @@ import React from 'react';
 import styled from 'styled-components'; 
 
 const FooterSection = styled.footer`
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
   width: 100%;
   height: 150px;
   font-family: GmarketSans;
@@ -31,33 +35,7 @@ const FooterSection = styled.footer`
     justify-content: center;
   }
 
-  .upper {
-    display: flex;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-  }
 
-  .logo-left,
-  .logo-right {
-    display: flex;
-    align-items: center;
-  }
-
-  .logo-left {
-    img {
-      width: 141px;
-      height: 15px;
-    }
-  }
-
-  .logo-right {
-    img {
-      width: 103px;
-      height: 30px;
-    }
-  }
 
   .lower {
     display: flex;
