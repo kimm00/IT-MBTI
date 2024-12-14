@@ -39,7 +39,6 @@ const CatImage = styled.img`
   position: absolute;
   top: 32px;
   left: 397px;
-
   width: 236px;
   height: 267px;
   object-fit: cover;
@@ -59,3 +58,5 @@ function Cat({ title }) {
 }
 
 export default Cat;
+
+
