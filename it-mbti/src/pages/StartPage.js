@@ -46,7 +46,7 @@ const Description = styled.h1`
   left: 79px;
   font-size: 30px;
   color: black;
-  margin-top: 40px;
+  margin-bottom: 50px;
   font-family: "GmarketSans";
   font-weight: 500;
 `;
@@ -61,19 +61,18 @@ const Deco2 = styled.img`
 `;
 
 const StartButton = styled.button`
-
   position: absolute;
-  top: 600px;
+  top: 650px;
   left: 71px;
   width: 297px;
   height: 72px;
-  font-size: 24px;
+  font-size: 28px;
   color: white;
   background: black;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
 
   &:hover {
     background-color: #574bff;
