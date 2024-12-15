@@ -18,7 +18,7 @@ const Page = styled.div`
 
 const Container = styled.div`
   position: relative;
-  width: 1296px;
+  width: 1396px;
   height: 863px;
   background: rgba(232, 234, 243, 0);
 `;
@@ -55,24 +55,24 @@ const SkillPosition = styled.div`
 
 const ButtonContainer = styled.div`
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 400px;
+  left: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 `;
 
-const NextButton = styled.button`
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #6c63ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
+const NextButton = styled.img`
+  width: 80px;
+  height: 80px;
   cursor: pointer;
-  margin:20px;
-
+  margin-bottom: 5px;
   &:hover {
-    background-color: #554ecc;
+    opacity: 0.8;
   }
 `;
+
 
 
 function ResultPage() {
@@ -123,13 +123,13 @@ function ResultPage() {
         <SkillPosition>
           <Skill type={resultType} />
         </SkillPosition>
-
         {highestTypes.length > 1 && (
-          <ButtonContainer>
-            <NextButton onClick={handleNextType}>More</NextButton>
-          </ButtonContainer>
-        )}
+      <ButtonContainer>
+        <NextButton src="./img/right2.png" alt="Next" onClick={handleNextType} />
+      </ButtonContainer>
+    )}
       </Container>      
+      
     </Page>
   );
 }
