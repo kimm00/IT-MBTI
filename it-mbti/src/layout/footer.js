@@ -34,7 +34,7 @@ const FooterSection = styled.footer`
   }
 
   .text1, .text2 {
-    font-size: 18px; /* 크기 적절히 키움 */
+    font-size: 30px; /* 크기 적절히 키움 */
     font-weight: 500;
     margin-right: 400px; /* 간격을 더 넓게 설정 */
   }
