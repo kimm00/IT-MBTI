@@ -53,17 +53,22 @@ function QuestionPage() {
   const navigate = useNavigate();
 
   const handleAnswer = (type, score) => {
-    setScores((prevScores) => ({
-      ...prevScores,
-      [type]: (prevScores[type] || 0) + score,
-    }));
-
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    } else {
-      navigate("/loading", { state: { scores } });
-    }
+setScores((prevScores) => {
+  const updatedScores = {
+    ...prevScores,
+    [type]: (prevScores[type] || 0) + score, 
   };
+
+  if (currentIndex < questions.length - 1) {
+    setCurrentIndex(currentIndex + 1); 
+  } else {
+    navigate("/loading", { state: { scores: updatedScores } }); 
+  }
+
+  return updatedScores; 
+});
+  
+
   const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
 
   return (
