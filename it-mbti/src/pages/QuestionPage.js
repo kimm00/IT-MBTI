@@ -12,6 +12,7 @@ const Container = styled.div`
   height: 100vh;
   background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
+
 const ProgressBarContainer = styled.div`
   width: 80%;
   height: 20px;
@@ -53,28 +54,26 @@ function QuestionPage() {
   const navigate = useNavigate();
 
   const handleAnswer = (type, score) => {
-setScores((prevScores) => {
-  const updatedScores = {
-    ...prevScores,
-    [type]: (prevScores[type] || 0) + score, 
+    setScores((prevScores) => {
+      const updatedScores = {
+        ...prevScores,
+        [type]: (prevScores[type] || 0) + score, 
+      };
+
+      if (currentIndex < questions.length - 1) {
+        setCurrentIndex(currentIndex + 1); 
+      } else {
+        navigate("/loading", { state: { scores: updatedScores } }); 
+      }
+
+      return updatedScores; 
+    });
   };
-
-  if (currentIndex < questions.length - 1) {
-    setCurrentIndex(currentIndex + 1); 
-  } else {
-    navigate("/loading", { state: { scores: updatedScores } }); 
-  }
-
-  return updatedScores; 
-});
-  
-
-  const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
 
   return (
     <Container>
       <ProgressBarContainer>
-        <Progress percentage={progressPercentage} />
+        <Progress percentage={((currentIndex + 1) / questions.length) * 100} />
       </ProgressBarContainer>
       <Questions
         questionText={questions[currentIndex].question}
@@ -82,7 +81,7 @@ setScores((prevScores) => {
       />
       <ButtonContainer>
         <NavButton onClick={() => setCurrentIndex((prev) => Math.max(prev - 1, 0))}>
-         ⬅ Previous
+          ⬅ Previous
         </NavButton>
       </ButtonContainer>
     </Container>
