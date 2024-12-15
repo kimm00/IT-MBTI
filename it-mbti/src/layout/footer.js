@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import styled from 'styled-components'; 
 
@@ -7,7 +6,7 @@ const FooterSection = styled.footer`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 140px;
+  height: 100px; /* 하단바 높이를 줄임 */
   font-family: GmarketSans;
   display: flex;
   justify-content: space-between;
@@ -18,9 +17,9 @@ const FooterSection = styled.footer`
   .logo {
     display: flex;
     align-items: center;
-    margin: 0 50px;
+    margin: 0 20px; /* 여백 줄이기 */
     img {
-      width: 100px;
+      width: 60px; /* 로고 크기 줄이기 */
       height: auto;
     }
   }
@@ -34,30 +33,30 @@ const FooterSection = styled.footer`
     justify-content: center;
   }
 
-
-
   .lower {
     display: flex;
-    justify-content: space-between;
-    font-size: 16px;
+    flex-direction: column; /* 세로 정렬 */
+    align-items: flex-start; /* 텍스트 왼쪽 정렬 */
+    font-size: 18px; /* 기본 텍스트 크기 확대 */
     padding: 0 20px;
   }
 
-  .text1,
-  .text2,
-  .text3 {
-    font-size: 14px;
-  }
-
-  .text1,
-  .text3 {
-    font-weight: 500;
-    white-space: pre-line;
-    line-height: 1.6;
+  .text1 {
+    font-size: 20px; /* 텍스트1 크기 증가 */
+    font-weight: 600;
   }
 
   .text2 {
-    font-weight: 300;
+    font-size: 18px; /* 텍스트2 크기 증가 */
+    font-weight: 500;
+    margin: 5px 0;
+  }
+
+  .text3 {
+    font-size: 14px; /* 텍스트3 크기 줄임 */
+    font-weight: 400;
+    white-space: pre-line; /* 줄바꿈 적용 */
+    line-height: 1.4; /* 줄 간격 조정 */
   }
 `;
 
