@@ -37,7 +37,7 @@ const FooterSection = styled.footer`
   .text2 {
     font-size: 25px;
     font-weight: 600;
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   .text3 {
