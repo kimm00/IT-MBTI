@@ -61,7 +61,7 @@ function QuestionPage() {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
     } else {
-      navigate("/result", { state: { scores } });
+      navigate("/loading", { state: { scores } });
     }
   };
   const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
