@@ -136,7 +136,9 @@ function Detail({ type }) {
   
         <TagsTitle>tag</TagsTitle>
         <TagsContainer>
-          <Tag>{result.tags?.join(", ") || "No tags."}</Tag>
+          {result.tags?.map((tag, index) => (
+            <Tag key={index}>{tag}</Tag>
+          )) || <Tag>No tags.</Tag>}
         </TagsContainer>
       </DetailContainer>
     );
