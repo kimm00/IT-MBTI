@@ -7,7 +7,7 @@ const FooterSection = styled.footer`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 120px;
+  height: 140px;
   font-family: GmarketSans;
   display: flex;
   justify-content: space-between;
@@ -39,18 +39,21 @@ const FooterSection = styled.footer`
   .lower {
     display: flex;
     justify-content: space-between;
-    font-size: 19px;
+    font-size: 16px;
     padding: 0 20px;
   }
 
   .text1,
   .text2,
   .text3 {
+    font-size: 14px;
   }
 
   .text1,
   .text3 {
     font-weight: 500;
+    white-space: pre-line;
+    line-height: 1.6;
   }
 
   .text2 {
@@ -68,7 +71,7 @@ const Footer = () => {
         <div className="lower">
           <div className="text1">Seoul National University of Science and Technology</div>
           <div className="text2">ITM OSS PROJECT</div>
-          <div className="text3">김도이 박신형 오은영 이한얼 황유영</div>
+          <div className="text3">Kim Doyi\nPark Shinhyung\nOh Eunyoung\nLee Haneol\nHwang Yuyoung</div>
         </div>
       </div>
     </FooterSection>
