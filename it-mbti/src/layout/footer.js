@@ -33,10 +33,15 @@ const FooterSection = styled.footer`
     margin: 0 20px;
   }
 
-  .text1, .text2 {
-    font-size: 15px; /* 크기 적절히 키움 */
-    font-weight: 500;
-    margin-right: 400px; /* 간격을 더 넓게 설정 */
+  .text1 {
+    font-size: 18px; /* 크기 증가 */
+    font-weight: 600; /* 더 두껍게 설정 */
+    margin-right: 20px; /* text2와 간격 설정 */
+  }
+
+  .text2 {
+    font-size: 18px; /* 크기 증가 */
+    font-weight: 600; /* 더 두껍게 설정 */
   }
 
   .text3 {
@@ -56,8 +61,10 @@ const Footer = () => {
         <img src="/img/seoultech.svg" alt="main-logo" />
       </div>
       <div className="contents">
-        <div className="text1">Seoul National University of Science and Technology</div>
-        <div className="text2">ITM OSS PROJECT</div>
+        <div>
+          <span className="text1">Seoul National University of Science and Technology</span>
+          <span className="text2">ITM OSS PROJECT</span>
+        </div>
         <div className="text3">
           23102003 Kim Doyi{'\n'}23102009 Park Shinhyung{'\n'}23102015 Oh Eunyoung{'\n'}23102025 Lee Haneol{'\n'}23102031 Hwang Yuyoung
         </div>
