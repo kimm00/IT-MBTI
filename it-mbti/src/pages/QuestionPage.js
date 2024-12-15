@@ -88,3 +88,5 @@ setScores((prevScores) => {
     </Container>
   );
 }
+
+export default QuestionPage;
