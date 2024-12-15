@@ -6,7 +6,7 @@ const FooterSection = styled.footer`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 150px; /* 높이를 조금 늘려 텍스트를 돋보이게 설정 */
+  height: 120px; /* 높이를 120px로 설정 */
   font-family: GmarketSans;
   display: flex;
   justify-content: space-between;
@@ -35,8 +35,8 @@ const FooterSection = styled.footer`
 
   .text1,
   .text2 {
-    font-size: 40px; /* 크기를 40px로 설정 */
-    font-weight: 600; /* 더 두껍게 설정 */
+    font-size: 25px; /* 폰트 크기를 25px로 설정 */
+    font-weight: 600; /* 폰트 두께를 600으로 설정 */
     margin-right: 20px; /* 두 텍스트 사이 간격 설정 */
   }
 
