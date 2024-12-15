@@ -36,7 +36,7 @@ const FooterSection = styled.footer`
   .text1, .text2 {
     font-size: 18px; /* 크기 적절히 키움 */
     font-weight: 500;
-    margin-right: 120px; /* 간격을 더 넓게 설정 */
+    margin-right: 400px; /* 간격을 더 넓게 설정 */
   }
 
   .text3 {
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="text1">Seoul National University of Science and Technology</div>
         <div className="text2">ITM OSS PROJECT</div>
         <div className="text3">
-          Kim Doyi{'\n'}Park Shinhyung{'\n'}Oh Eunyoung{'\n'}Lee Haneol{'\n'}Hwang Yuyoung
+          23102003 Kim Doyi{'\n'}23102009 Park Shinhyung{'\n'}23102015 Oh Eunyoung{'\n'}23102025 Lee Haneol{'\n'}23102031 Hwang Yuyoung
         </div>
       </div>
     </FooterSection>
