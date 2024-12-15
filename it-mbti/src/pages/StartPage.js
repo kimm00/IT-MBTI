@@ -19,7 +19,7 @@ const Container = styled.div`
 `;
 const Title2 = styled.h1`
   position: absolute;
-  top: 141px;
+  top: 100px;
   left: 79px;
   font-size: 100px;
   color: Black;
@@ -30,7 +30,7 @@ const Title2 = styled.h1`
 
 const Title = styled.h1`
   position: absolute;
-  top: 230px;
+  top: 180px;
   left: 79px;
   font-size: 100px;
   color: Black;
@@ -42,7 +42,7 @@ const Title = styled.h1`
 const Description = styled.h1`
   position: absolute;
   width: 700px;
-  top: 390px;
+  top: 280px;
   left: 79px;
   font-size: 30px;
   color: black;
@@ -62,7 +62,7 @@ const Deco2 = styled.img`
 
 const StartButton = styled.button`
   position: absolute;
-  top: 650px;
+  top: 520px;
   left: 71px;
   width: 297px;
   height: 72px;
