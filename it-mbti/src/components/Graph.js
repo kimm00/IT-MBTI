@@ -60,7 +60,7 @@ function Graph({ scores }) {
   // 각 유형의 퍼센트 계산
   const graphData = scores.map(([type, score]) => ({
     label: type,
-    percentage: totalScore > 0 ? Math.round((score / totalScore) * 100) : 0,
+    percentage: totalScore > 0 ? Math.round((score /15) * 100) : 0,
     color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
   }));
 
