@@ -53,17 +53,23 @@ function QuestionPage() {
   const navigate = useNavigate();
 
   const handleAnswer = (type, score) => {
-    setScores((prevScores) => ({
-      ...prevScores,
-      [type]: (prevScores[type] || 0) + score,
-    }));
-
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-    } else {
-      navigate("/result", { state: { scores } });
-    }
+    setScores((prevScores) => {
+      const updatedScores = {
+        ...prevScores,
+        [type]: (prevScores[type] || 0) + score, // 최신 점수 계산
+      };
+  
+      if (currentIndex < questions.length - 1) {
+        setCurrentIndex(currentIndex + 1); // 다음 질문으로 이동
+      } else {
+        navigate("/loading", { state: { scores: updatedScores } }); // 최신 점수 전달
+      }
+  
+      return updatedScores; // 상태 반환
+    });
   };
+  
+
   const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
 
   return (
