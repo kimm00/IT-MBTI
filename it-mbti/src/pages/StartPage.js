@@ -87,9 +87,9 @@ function StartPage() {
     <Page>
       <Container>
         <Title2>What is your</Title2>
-        <Title>IT-MBTI 👩🏻‍💻 </Title>
+        <Title>IT-MBTI </Title>
         <Description>This project is a web application for conducting an IT MBTI test, helping users discover their aptitudes and career paths in the IT field. With an intuitive UI and results page.</Description>
-        <Deco2 src="/img/python.png" alt="deco2"/>
+        <Deco2 src="/img/catimage.png" alt="deco2"/>
         <StartButton onClick={() => navigate("/question")}>Start</StartButton>
       </Container>
     </Page>
