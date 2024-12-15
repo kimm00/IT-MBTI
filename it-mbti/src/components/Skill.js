@@ -47,6 +47,11 @@ const SkillImage = styled.img`
   height: 40px;
   border-radius: 50%;
   margin-right: 10px;
+
+  &:hover {
+    border: 3px solid #6c63ff; /* 활성화 시 테두리 색상 */
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.5); /* 부드러운 그림자 효과 */
+  }
 `;
 
 const SkillName = styled.span`
