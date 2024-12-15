@@ -10,14 +10,16 @@ const Page = styled.div`
   height: 100vh;
   background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
-const Container = styled.div
+
+const Container = styled.div`
   position: relative;
   width: 100%;
   height: 863px;
   background: rgba(232, 234, 243, 0);
   border-radius: 10px;
-;
-const Title2 = styled.h1
+`;
+
+const Title2 = styled.h1`
   position: absolute;
   top: 141px;
   left: 79px;
@@ -26,7 +28,7 @@ const Title2 = styled.h1
   margin-bottom: 20px;
   font-family: "sans-serif";
   font-weight: 900;
-;
+`;
 
 const Title = styled.h1`
   position: absolute;
@@ -51,17 +53,16 @@ const Description = styled.h1`
   font-weight: 500;
 `;
 
-const Deco2 = styled.img
- position: absolute;
+const Deco2 = styled.img`
+  position: absolute;
   top: 123px;
   left: 793px;
   width: 648px;
   height: 648px;
   object-fit: cover;
-;
+`;
 
-const StartButton = styled.button
-
+const StartButton = styled.button`
   position: absolute;
   top: 600px;
   left: 71px;
@@ -78,7 +79,7 @@ const StartButton = styled.button
   &:hover {
     background-color: #574bff;
   }
-;
+`;
 
 function StartPage() {
   const navigate = useNavigate();
@@ -87,9 +88,13 @@ function StartPage() {
     <Page>
       <Container>
         <Title2>What is your</Title2>
-        <Title>IT-MBTI </Title>
-        <Description>This project is a web application for conducting an IT MBTI test, helping users discover their aptitudes and career paths in the IT field. With an intuitive UI and results page.</Description>
-        <Deco2 src="/img/catimage.png" alt="deco2"/>
+        <Title>IT-MBTI</Title>
+        <Description>
+          This project is a web application for conducting an IT MBTI test,
+          helping users discover their aptitudes and career paths in the IT
+          field. With an intuitive UI and results page.
+        </Description>
+        <Deco2 src="/img/catimage.png" alt="deco2" />
         <StartButton onClick={() => navigate("/question")}>Start</StartButton>
       </Container>
     </Page>
