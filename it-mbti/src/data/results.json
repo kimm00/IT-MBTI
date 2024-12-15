@@ -1,6 +1,7 @@
 [
 {
   "type": "UI/UX Designer",
+  "catImage":"/img/cat/cat1.png",
   "catType": "Artistic Scottish Fold Type",
   "introduction": "Delivers unique user experiences through creative ideas and innovative design.",
   "jobDescription": "Analyzes user needs and behavior patterns through UX research, and visualizes initial design concepts by creating wireframes and prototypes. Then, designs detailed user interfaces (UI) to provide intuitive and user-friendly digital environments.",
@@ -39,6 +40,7 @@
 },
 {
   "type": "Frontend Developer",
+  "catImage":"/img/cat/cat2.png",
   "catType": "Cool-Headed Oriental Shorthair Type",
   "introduction": "Builds intuitive and user-friendly interfaces with flexible thinking.",
   "jobDescription": "Develops user interfaces (UI) for websites and applications, ensuring seamless integration with backend systems. Applies responsive web design to provide optimal user experiences across various devices.",
@@ -77,6 +79,7 @@
 },
 {
   "type": "Backend Developer",
+  "catImage":"/img/cat/cat3.png",
   "catType": "Solitary Russian Blue Type",
   "introduction": "Enhances system performance with efficient coding in database design and server optimization.",
   "jobDescription": "Builds stable system environments through server development, optimizes data storage and retrieval by managing databases efficiently, designs and implements APIs for seamless communication between systems, and strengthens security to ensure data and system safety.",
@@ -116,6 +119,7 @@
 {
   "type": "DevOps Engineer",
   "catType": "Independent Bengal Type",
+  "catImage":"/img/cat/cat4.png",
   "introduction": " Maximizes collaboration between development and operations through system automation and CI/CD pipeline design.",
   "jobDescription": "Writes automation scripts to streamline repetitive tasks, designs CI/CD pipelines to facilitate software development and deployment, and systematically manages cloud environments to build stable and scalable systems.",
   "relatedJobs": ["DevOps Engineer", "System Administrator", "Cloud Engineer"],
@@ -152,6 +156,7 @@
 },
 {
   "type": "Data Analyst",
+  "catImage":"/img/cat/cat5.png",
   "catType": "Curious Sphynx Type",
   "introduction": "Makes insightful decisions based on data and discovers new patterns and opportunities using various analysis tools and techniques.",
   "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information. Visualizes analysis results using data visualization tools to clearly convey core insights and support data-driven decision-making.",
@@ -192,6 +197,7 @@
 },
 {
   "type": "IT Strategy Consultant",
+  "catImage":"/img/cat/cat6.png",
   "catType": " Strategic Savannah Type",
   "introduction": "Combines technical knowledge and business insight to propose innovative strategies to achieve organizational goals.",
   "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives. Conducts in-depth evaluations of IT solutions and provides implementation plans tailored to organizational requirements and resources to maximize efficiency and productivity.",
@@ -233,6 +239,7 @@
 {
   "type": "Business Development Manager",
   "catType": "Playful Abyssinian Type",
+  "catImage":"/img/cat/cat7.png",
   "introduction": "Identifies business opportunities through market trend analysis and strategy development, leading projects to success.",
   "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration. Designs and executes specific strategies to achieve revenue growth, supporting the organization in reaching its business objectives.",
   "relatedJobs": ["Business Development Manager", "Sales Manager", "Marketing Strategist"],
