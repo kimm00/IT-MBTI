@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import Question from "../components/Questions";
+import Questions from "../components/Questions";
 import questions from "../data/questions.json"; 
 
 const Container = styled.div`
@@ -53,21 +53,20 @@ function QuestionPage() {
   const navigate = useNavigate();
 
   const handleAnswer = (type, score) => {
-    setScores((prevScores) => {
-      const updatedScores = {
-        ...prevScores,
-        [type]: (prevScores[type] || 0) + score, // 최신 점수 계산
-      };
-  
-      if (currentIndex < questions.length - 1) {
-        setCurrentIndex(currentIndex + 1); // 다음 질문으로 이동
-      } else {
-        navigate("/loading", { state: { scores: updatedScores } }); // 최신 점수 전달
-      }
-  
-      return updatedScores; // 상태 반환
-    });
+setScores((prevScores) => {
+  const updatedScores = {
+    ...prevScores,
+    [type]: (prevScores[type] || 0) + score, 
   };
+
+  if (currentIndex < questions.length - 1) {
+    setCurrentIndex(currentIndex + 1); 
+  } else {
+    navigate("/loading", { state: { scores: updatedScores } }); 
+  }
+
+  return updatedScores; 
+});
   
 
   const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
@@ -77,7 +76,7 @@ function QuestionPage() {
       <ProgressBarContainer>
         <Progress percentage={progressPercentage} />
       </ProgressBarContainer>
-      <Question
+      <Questions
         questionText={questions[currentIndex].question}
         onAnswer={(score) => handleAnswer(questions[currentIndex].type, score)}
       />

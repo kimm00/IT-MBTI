@@ -4,6 +4,9 @@ import results from "../data/results.json";
 
 
 const SkillContainer = styled.div`
+  width: 295px;
+  height: 244px;
+  display: flex;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 10px;
