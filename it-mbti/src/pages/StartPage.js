@@ -34,10 +34,11 @@ const Title = styled.h1`
   left: 79px;
   font-size: 100px;
   color: Black;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: "sans-serif";
   font-weight: 900;
 `;
+
 const Description = styled.h1`
   position: absolute;
   width: 700px;
@@ -45,10 +46,9 @@ const Description = styled.h1`
   left: 79px;
   font-size: 30px;
   color: black;
-  margin-bottom: 20px;
+  margin-top: 40px;
   font-family: "GmarketSans";
   font-weight: 500;
-  
 `;
 
 const Deco2 = styled.img`
