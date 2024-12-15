@@ -54,7 +54,7 @@ function LoadingPage() {
 
   return (
       <Page>
-        <LoadingText>어떤 유형이 나올까요? 🤔</LoadingText>
+        <LoadingText>What type will it be? 🤔</LoadingText>
         <Spinner />
       </Page>
     );
