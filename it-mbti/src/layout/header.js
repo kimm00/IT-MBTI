@@ -13,7 +13,7 @@ const HeaderSection = styled.header`
   justify-content: space-between;
   align-items: center;
   font-family: "GmarketSans";
-  background: #E8EAF2;
+  background: #DFE2EF;
   color: black;
 
   @media (max-width: 768px) {

@@ -6,9 +6,8 @@ const FooterSection = styled.footer`
   position: fixed;
   bottom: 0;
   left: 0;
-
   width: 100%;
-  height: 150px;
+  height: 120px;
   font-family: GmarketSans;
   display: flex;
   justify-content: space-between;
@@ -21,7 +20,7 @@ const FooterSection = styled.footer`
     align-items: center;
     margin: 0 50px;
     img {
-      width: 132px;
+      width: 100px;
       height: auto;
     }
   }

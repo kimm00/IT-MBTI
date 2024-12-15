@@ -15,7 +15,7 @@ const Page = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
 
 const LoadingText = styled.h1`
@@ -24,11 +24,6 @@ const LoadingText = styled.h1`
   margin-bottom: 20px;
 `;
 
-const TypeText = styled.div`
-  font-size: 1.8rem;
-  color: #6c63ff;
-  animation: ${fadeInOut} 2s infinite;
-`;
 
 const Spinner = styled.div`
   border: 8px solid #f3f3f3;
