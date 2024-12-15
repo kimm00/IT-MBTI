@@ -57,10 +57,15 @@ function Graph({ scores }) {
   // 총점 계산
   const totalScore = scores.reduce((sum, score) => sum + score[1], 0);
 
-  // 각 유형의 퍼센트 계산
+  // 각 유형의 퍼센트 계산 (스케일 값 적용: 0, 2.5, 5, 7.5, 10)
+  const maxScorePerType = 10; // 최대 점수 (스케일에 따라 변경됨)
+  const scaledMaxTotalScore = scores.length * maxScorePerType;
+
   const graphData = scores.map(([type, score]) => ({
     label: type,
-    percentage: totalScore > 0 ? Math.round((score /15) * 100) : 0,
+    percentage: totalScore > 0 
+      ? Math.round((score / scaledMaxTotalScore) * 100) 
+      : 0,
     color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
   }));
 
@@ -73,9 +78,7 @@ function Graph({ scores }) {
             <LabelText>{data.percentage}%</LabelText>
           </GraphLabel>
           <ProgressBar>
-            <Progress percentage={data.percentage} color={data.color}>
-              <Percentage>{data.percentage}%</Percentage>
-            </Progress>
+            <Progress percentage={data.percentage} color={data.color} />
           </ProgressBar>
         </GraphItem>
       ))}
@@ -83,4 +86,6 @@ function Graph({ scores }) {
   );
 }
 
+
 export default Graph;
+
