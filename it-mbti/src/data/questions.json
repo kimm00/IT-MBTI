@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "type": "UI/UX Designer",
-      "question": "Enjoys solving problems with creative ideas."
+      "type": "Frontend Developer",
+      "question": "Interested in building interfaces for websites and apps."
     },
     {
       "id": 2,
@@ -11,18 +11,18 @@
     },
     {
       "id": 3,
-      "type": "UI/UX Designer",
-      "question": "Enjoys working with visual elements such as colors, layouts, and typography."
+      "type": "Business Development Manager",
+      "question": "Thrives on discovering new business opportunities and crafting strategies."
     },
     {
       "id": 4,
-      "type": "Frontend Developer",
-      "question": "Interested in building interfaces for websites and apps."
+      "type": "UI/UX Designer",
+      "question": "Enjoys solving problems with creative ideas."
     },
     {
       "id": 5,
-      "type": "Frontend Developer",
-      "question": "Passionate about languages like HTML, CSS, and JavaScript."
+      "type": "IT Strategy Consultant",
+      "question": "Enjoys designing IT solutions to solve business challenges."
     },
     {
       "id": 6,
@@ -31,18 +31,18 @@
     },
     {
       "id": 7,
-      "type": "Backend Developer",
-      "question": "Interested in designing database and server structures."
+      "type": "DevOps Engineer",
+      "question": "Enjoys designing and implementing CI/CD pipelines."
     },
     {
       "id": 8,
-      "type": "Backend Developer",
-      "question": "Enjoys solving problems logically and optimizing systems."
+      "type": "Data Analyst",
+      "question": "Enthusiastic about using tools like Excel, Python, and SQL."
     },
     {
       "id": 9,
-      "type": "Backend Developer",
-      "question": "Finds satisfaction in writing efficient code to enhance system performance."
+      "type": "Business Development Manager",
+      "question": "Interested in analyzing market trends and applying them to business initiatives."
     },
     {
       "id": 10,
@@ -51,13 +51,13 @@
     },
     {
       "id": 11,
-      "type": "DevOps Engineer",
-      "question": "Values seamless collaboration between development and operations."
+      "type": "IT Strategy Consultant",
+      "question": "Loves understanding organizational goals and optimizing plans to achieve them."
     },
     {
       "id": 12,
-      "type": "DevOps Engineer",
-      "question": "Enjoys designing and implementing CI/CD pipelines."
+      "type": "Backend Developer",
+      "question": "Interested in designing database and server structures."
     },
     {
       "id": 13,
@@ -66,8 +66,8 @@
     },
     {
       "id": 14,
-      "type": "Data Analyst",
-      "question": "Enthusiastic about using tools like Excel, Python, and SQL."
+      "type": "Backend Developer",
+      "question": "Enjoys solving problems logically and optimizing systems."
     },
     {
       "id": 15,
@@ -76,13 +76,13 @@
     },
     {
       "id": 16,
-      "type": "IT Strategy Consultant",
-      "question": "Enjoys designing IT solutions to solve business challenges."
+      "type": "Frontend Developer",
+      "question": "Passionate about languages like HTML, CSS, and JavaScript."
     },
     {
       "id": 17,
-      "type": "IT Strategy Consultant",
-      "question": "Loves understanding organizational goals and optimizing plans to achieve them."
+      "type": "DevOps Engineer",
+      "question": "Values seamless collaboration between development and operations."
     },
     {
       "id": 18,
@@ -91,8 +91,8 @@
     },
     {
       "id": 19,
-      "type": "Business Development Manager",
-      "question": "Thrives on discovering new business opportunities and crafting strategies."
+      "type": "UI/UX Designer",
+      "question": "Enjoys working with visual elements such as colors, layouts, and typography."
     },
     {
       "id": 20,
@@ -101,7 +101,7 @@
     },
     {
       "id": 21,
-      "type": "Business Development Manager",
-      "question": "Interested in analyzing market trends and applying them to business initiatives."
+      "type": "Backend Developer",
+      "question": "Finds satisfaction in writing efficient code to enhance system performance."
     }
   ]
