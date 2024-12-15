@@ -40,7 +40,7 @@ const Logo = styled.div`
 
 const Nav = styled.nav`
   display: flex;
-  gap: 50px;
+  gap: 70px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -54,6 +54,7 @@ const NavLink = styled(Link)`
   color: black;
   text-decoration: none;
   transition: color 0.3s;
+  margin-right:100px;
 
   &:hover {
     color: #d1d0ff;
@@ -65,6 +66,7 @@ const NavItem = styled.span`
   color: black;
   cursor: pointer;
   transition: color 0.3s;
+  margin-right:70px;
 
   &:hover {
     color: #d1d0ff;
