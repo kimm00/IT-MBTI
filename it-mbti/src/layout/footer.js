@@ -37,7 +37,7 @@ const FooterSection = styled.footer`
   .text2 {
     font-size: 25px;
     font-weight: 600;
-    margin-right: 50px;
+    margin-right: 200px;
   }
 
   .text3 {
@@ -47,8 +47,6 @@ const FooterSection = styled.footer`
     line-height: 1.6;
     text-align: right;
     margin-left: auto;
-    overflow-wrap: break-word; /* 텍스트 넘침 방지 */
-    max-width: 250px; /* 오른쪽 영역의 최대 너비 설정 */
   }
 `;
 
