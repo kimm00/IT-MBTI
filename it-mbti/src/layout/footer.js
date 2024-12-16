@@ -59,8 +59,6 @@ const Footer = () => {
           <span className="text1">Seoul National University of Science and Technology</span>
           <span className="text2">ITM OSS PROJECT</span>
         </div>
-        <div className="text3">
-        </div>
       </div>
     </FooterSection>
   );
