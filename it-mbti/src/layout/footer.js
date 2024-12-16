@@ -1,4 +1,39 @@
-.text1{
+import React from 'react';
+import styled from 'styled-components'; 
+
+const FooterSection = styled.footer`
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  font-family: GmarketSans;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 0 20px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    img {
+      width: 90px;
+      height: auto;
+    }
+  }
+
+  .contents {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+  }
+
+  .text1{
     font-size: 25px;
     font-weight: 600;
     margin-right: 200px;
