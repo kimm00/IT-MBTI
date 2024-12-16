@@ -149,7 +149,7 @@
       {
         "name": "Josue Obregon",
         "image": "/img/professor/오브레곤교수님.png",
-        "website": " https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
       }
     ],
   "tags": ["Automation", "CI/CD", "Cloud", "DevOps"]

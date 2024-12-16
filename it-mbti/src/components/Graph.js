@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
+const fixedColors = {
+  "Frontend Developer": "#f94144",
+  "UI/UX Designer": "#f8961e",
+  "Business Development Manager": "#f9c74f",
+  "IT Strategy Consultant": "#90be6d",
+  "DevOps Engineer": "#43aa8b",
+  "Data Analyst": "#4d908e",
+  "Backend Developer": "#577590",
+};
+
 const GraphContainer = styled.div`
   width: 640px;
   height: 436px;
@@ -43,30 +53,16 @@ const Progress = styled.div`
 `;
 
 function Graph({ scores }) {
-  // 스케일 값 적용 (0, 2.5, 5, 7.5, 10)
-  const scaleValues = [0, 2.5, 5, 7.5, 10];
-  
-  // 점수를 스케일에 맞게 변환
-  const adjustedScores = scores.map(([type, score]) => {
-    // 가장 가까운 스케일 값 찾기
-    const scaledScore = scaleValues.reduce((prev, curr) =>
-      Math.abs(curr - score) < Math.abs(prev - score) ? curr : prev
-    );
-    return [type, scaledScore];
+const maxScorePerType = 30;
+  const graphData = scores.map(([type, score]) => {
+    const percentage = Math.round((score / maxScorePerType) * 100);
+    return {
+      label: type,
+      percentage: percentage,
+      color: fixedColors[type],
+    };
   });
 
-  // 총점 계산 (스케일이 적용된 값 사용)
-  const totalScore = adjustedScores.reduce((sum, score) => sum + score[1], 0);
-  const maxScorePerType = 10; // 스케일의 최대 값
-  const scaledMaxTotalScore = adjustedScores.length * maxScorePerType;
-
-  // 각 점수의 퍼센트 계산
-  const graphData = adjustedScores.map(([type, score]) => ({
-    label: type,
-    percentage:
-      totalScore > 0 ? Math.round((score / scaledMaxTotalScore) * 100) : 0,
-    color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
-  }));
 
   return (
     <GraphContainer>
@@ -86,4 +82,3 @@ function Graph({ scores }) {
 }
 
 export default Graph;
-
