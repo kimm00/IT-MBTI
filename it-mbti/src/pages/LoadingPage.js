@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import { useNavigate, useLocation } from "react-router-dom";
 
-// 번갈아 나오는 텍스트 애니메이션
 const fadeInOut = keyframes`
   0% { opacity: 0; }
   50% { opacity: 1; }
@@ -19,9 +18,9 @@ const Page = styled.div`
 `;
 
 const LoadingText = styled.h1`
-  font-size: 2.5rem;
+  font-size: 60px;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `;
 
 
@@ -29,8 +28,8 @@ const Spinner = styled.div`
   border: 8px solid #f3f3f3;
   border-top: 8px solid #6c63ff;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   animation: spin 1s linear infinite;
 
   @keyframes spin {
