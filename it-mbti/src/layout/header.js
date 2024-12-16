@@ -27,10 +27,10 @@ const Logo = styled.div`
   display: flex;
   align-items: center;
 
-  h1 {
-    font-size: 40px;
-    margin-left: 40px;
-    cursor: pointer;
+  img {
+    width: 300px;
+    height: 80px;
+    margin-left: 50px;
   }
 
   @media (max-width: 768px) {
@@ -50,7 +50,8 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
   color: black;
   text-decoration: none;
   transition: color 0.3s;
@@ -62,7 +63,8 @@ const NavLink = styled(Link)`
 `;
 
 const NavItem = styled.span`
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
   color: black;
   cursor: pointer;
   transition: color 0.3s;
@@ -83,7 +85,7 @@ const Header = () => {
     <>
       <HeaderSection>
         <Logo>
-          <h1>IT-MBTI</h1>
+          <img src="/modal.png" alt="Logo Icon" />
         </Logo>
         <Nav>
           <NavLink to="/">Home</NavLink>
@@ -97,3 +99,4 @@ const Header = () => {
 };
 
 export default Header;
+
