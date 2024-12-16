@@ -149,7 +149,7 @@
       {
         "name": "Josue Obregon",
         "image": "/img/professor/오브레곤교수님.png",
-        "website": " https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
+        "website": "https://itm.seoultech.ac.kr/about_itm/about_professor/?togo=list&menu=1920&profidx=02684"
       }
     ],
   "tags": ["Automation", "CI/CD", "Cloud", "DevOps"]
@@ -159,7 +159,7 @@
   "catImage":"/img/cat/cat5.png",
   "catType": "Curious Sphynx Type",
   "introduction": "Makes insightful decisions based on data and discovers new patterns and opportunities using various analysis tools and techniques.",
-  "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information. Visualizes analysis results using data visualization tools to clearly convey core insights and support data-driven decision-making.",
+  "jobDescription": "Collects data from various sources, systematically organizes it, and processes it into an analyzable form through quality verification and refinement. Utilizes statistical analysis techniques to uncover hidden patterns and trends in data, deriving meaningful information.",
   "relatedJobs": ["Data Analyst", "Business Analyst", "Data Scientist"],
   "coreSkills": ["SQL", "Python/R", "Statistics"],
   "recommendedSkills": [
@@ -200,7 +200,7 @@
   "catImage":"/img/cat/cat6.png",
   "catType": " Strategic Savannah Type",
   "introduction": "Combines technical knowledge and business insight to propose innovative strategies to achieve organizational goals.",
-  "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives. Conducts in-depth evaluations of IT solutions and provides implementation plans tailored to organizational requirements and resources to maximize efficiency and productivity.",
+  "jobDescription": "Develops a technology roadmap to set medium- and long-term goals for the organization, plans specific steps for technology adoption and development, and proposes executable strategies aligned with business objectives.",
   "relatedJobs": ["IT Consultant", "Project Manager", "Technology Strategist"],
   "coreSkills": ["Business Analysis", "Understanding IT Trends", "Problem-Solving Skills"],
   "recommendedSkills": [
@@ -241,7 +241,7 @@
   "catType": "Playful Abyssinian Type",
   "catImage":"/img/cat/cat7.png",
   "introduction": "Identifies business opportunities through market trend analysis and strategy development, leading projects to success.",
-  "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration. Designs and executes specific strategies to achieve revenue growth, supporting the organization in reaching its business objectives.",
+  "jobDescription": "Analyzes industry trends and competition through market research, identifies customer needs, and uncovers business opportunities. Based on this, effectively acquires new customers and builds strategic partnerships for long-term collaboration.",
   "relatedJobs": ["Business Development Manager", "Sales Manager", "Marketing Strategist"],
   "coreSkills": ["Communication Skills", "Data Analysis", "Networking Skills", "Negotiation Skills"],
   "recommendedSkills": [

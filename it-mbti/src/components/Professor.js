@@ -25,7 +25,7 @@ const ProfessorProfile = styled.a`
   align-items: center;
   text-decoration: none;
   color: inherit;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 10px;
   &:hover {
     color: #6c63ff;
@@ -37,6 +37,11 @@ const ProfessorImage = styled.img`
   height: 70px;
   border-radius: 50%;
   margin-right: 0px;
+
+  &:hover {
+    border: 3px solid #6c63ff; /* 활성화 시 테두리 색상 */
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.5); /* 부드러운 그림자 효과 */
+  }
 `;
 
 const ProfessorName = styled.p`
