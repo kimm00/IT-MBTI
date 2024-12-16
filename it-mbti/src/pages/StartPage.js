@@ -21,7 +21,7 @@ const Container = styled.div`
 
 const Title2 = styled.h1`
   position: absolute;
-  top: 141px;
+  top: 100px;
   left: 300px;
   font-size: 100px;
   color: Black;
@@ -32,7 +32,7 @@ const Title2 = styled.h1`
 
 const Title = styled.h1`
   position: absolute;
-  top: 230px;
+  top: 200px;
   left: 300px;
   font-size: 100px;
   color: Black;
@@ -44,13 +44,13 @@ const Title = styled.h1`
 const Description = styled.h1`
   position: absolute;
   width: 700px;
-  top: 390px;
+  top: 370px;
   left: 300px;
   font-size: 30px;
-  color: black;
+  font-weight: bold;
+  color: #343a40;
   margin-top: 40px;
   font-family: "GmarketSans";
-  font-weight: 500;
 `;
 
 const Deco2 = styled.img`
@@ -64,11 +64,11 @@ const Deco2 = styled.img`
 
 const StartButton = styled.button`
   position: absolute;
-  top: 620px;
+  top: 610px;
   left: 300px;
   width: 297px;
   height: 72px;
-  font-size: 24px;
+  font-size: 35px;
   color: white;
   background: black;
   border: none;
@@ -102,3 +102,4 @@ function StartPage() {
 }
 
 export default StartPage ;
+
