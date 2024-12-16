@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const fixedColors = {
-  "Frontend Developer": "#cdb4db", 
-  "Backend Developer": "#ffc8dd", 
-  "UI/UX Designer": "#ffafcc",  
-  "DevOps Engineer": "#bde0fe", 
-  "Data Analyst": "#a2d2ff",  
-  "IT Consultant": "#bbd0ff",  
-  "Business Analyst": "#b8c0ff", 
+  "Frontend Developer": "#cdb4db",
+  "Backend Developer": "#ffc8dd",
+  "UI/UX Designer": "#ffafcc",
+  "DevOps Engineer": "#bde0fe",
+  "Data Analyst": "#a2d2ff",
+  "IT Consultant": "#bbd0ff",
+  "Business Analyst": "#b8c0ff",
 };
 
 const GraphContainer = styled.div`
@@ -62,13 +62,15 @@ const Percentage = styled.span`
   line-height: 20px;
 `;
 
-  function Graph({ scores }) {
+function Graph({ scores }) {
   const maxScorePerType = 30;
-  const percentage = Math.round((score / maxScorePerType) * 100);
-  return {
-    label: type,
-    percentage: percentage,
-    color: fixedColors[type],
+
+  const graphData = scores.map(([type, score]) => {
+    const percentage = Math.round((score / maxScorePerType) * 100);
+    return {
+      label: type,
+      percentage: percentage,
+      color: fixedColors[type],
     };
   });
 
@@ -89,7 +91,4 @@ const Percentage = styled.span`
   );
 }
 
-
 export default Graph;
-
-
