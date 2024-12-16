@@ -122,7 +122,7 @@ function Detail({ type }) {
         <Work>work</Work>
         <WorkDescription>
         {result.introduction || "No introduction available."}</WorkDescription>
-        <JobD>JobDescription</JobD>
+        <JobD>job description</JobD>
         <JobDescription>
           {result.jobDescription || "No job description."}
         </JobDescription>
