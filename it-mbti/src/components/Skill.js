@@ -18,6 +18,7 @@ const SkillContainer = styled.div`
 const SkillTitle = styled.h3`
   font-size: 23px;
   color: #333;
+  margin-top: 10px;
   margin-bottom: 15px;
   margin-left: 20px;
 `;
