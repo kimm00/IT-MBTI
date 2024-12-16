@@ -39,7 +39,7 @@ describe('Skill Component', () => {
     render(<Skill type="DevOps Engineer" />);
 
     const jenkinsLink = screen.getByRole('link', { name: 'Jenkins' });
-    expect(jenkinsLink).toHaveAttribute('href', 'https://www.jenkins.io/');
+    expect(jenkinsLink).toHaveAttribute('href', 'https://www.Jenkins.io/');
 
     const dockerLink = screen.getByRole('link', { name: 'Docker' });
     expect(dockerLink).toHaveAttribute('href', 'https://www.docker.com/');
