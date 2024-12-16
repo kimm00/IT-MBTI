@@ -7,8 +7,8 @@ const fixedColors = {
   "UI/UX Designer": "#ffafcc",
   "DevOps Engineer": "#bde0fe",
   "Data Analyst": "#a2d2ff",
-  "IT Strategic Consultant": "#bbd0ff",
-  "Business Development Analyst": "#b8c0ff",
+  "IT Strategy Consultant": "#bbd0ff",
+  "Business Development Manager": "#b8c0ff",
 };
 
 const GraphContainer = styled.div`
