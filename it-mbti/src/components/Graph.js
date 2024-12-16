@@ -64,11 +64,13 @@ const Percentage = styled.span`
 
   function Graph({ scores }) {
   const maxScorePerType = 30;
-  const graphData = scores.map(([type, score]) => ({
+  const percentage = Math.round((score / maxScorePerType) * 100);
+  return {
     label: type,
-    percentage: Math.round((score / maxScorePerType) * 100),
+    percentage: percentage,
     color: fixedColors[type],
-  }));
+    };
+  });
 
   return (
     <GraphContainer>
