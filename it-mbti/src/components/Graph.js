@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
+const fixedColors = {
+  "Frontend Developer": "#f94144",
+  "UI/UX Designer": "#f8961e",
+  "Business Development Manager": "#f9c74f",
+  "IT Strategy Consultant": "#90be6d",
+  "DevOps Engineer": "#43aa8b",
+  "Data Analyst": "#4d908e",
+  "Backend Developer": "#577590",
+};
+
 const GraphContainer = styled.div`
   width: 640px;
   height: 436px;
@@ -10,7 +20,6 @@ const GraphContainer = styled.div`
   font-family: Arial, sans-serif;
   padding: 5px;
 `;
-
 
 const GraphItem = styled.div`
   margin: 10px;
@@ -43,26 +52,17 @@ const Progress = styled.div`
   transition: width 0.3s ease-in-out;
 `;
 
-const Percentage = styled.span`
-  position: absolute;
-  right: 10px;
-  top: 0;
-  font-size: 0.9rem;
-  color: white;
-  font-weight: bold;
-  line-height: 20px;
-`;
-
 function Graph({ scores }) {
-  // 총점 계산
-  const totalScore = scores.reduce((sum, score) => sum + score[1], 0);
+const maxScorePerType = 30;
+  const graphData = scores.map(([type, score]) => {
+    const percentage = Math.round((score / maxScorePerType) * 100);
+    return {
+      label: type,
+      percentage: percentage,
+      color: fixedColors[type],
+    };
+  });
 
-  // 각 유형의 퍼센트 계산
-  const graphData = scores.map(([type, score]) => ({
-    label: type,
-    percentage: totalScore > 0 ? Math.round((score / totalScore) * 100) : 0,
-    color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
-  }));
 
   return (
     <GraphContainer>
@@ -73,9 +73,7 @@ function Graph({ scores }) {
             <LabelText>{data.percentage}%</LabelText>
           </GraphLabel>
           <ProgressBar>
-            <Progress percentage={data.percentage} color={data.color}>
-              <Percentage>{data.percentage}%</Percentage>
-            </Progress>
+            <Progress percentage={data.percentage} color={data.color} />
           </ProgressBar>
         </GraphItem>
       ))}

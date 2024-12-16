@@ -1,83 +1,51 @@
-// Footer.js
 import React from 'react';
 import styled from 'styled-components'; 
 
 const FooterSection = styled.footer`
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 150px;
+  height: 120px;
   font-family: GmarketSans;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: black;
   color: white;
+  padding: 0 20px;
 
   .logo {
     display: flex;
     align-items: center;
-    margin: 0 50px;
+    margin-left: 10px;
     img {
-      width: 132px;
+      width: 90px;
       height: auto;
     }
   }
 
   .contents {
-    height: 100%;
-    opacity: 0.92;
     display: flex;
-    flex-direction: column;
     flex: 1;
-    justify-content: center;
-  }
-
-  .upper {
-    display: flex;
-    padding: 0 20px;
-    align-items: center;
     justify-content: space-between;
-    margin-bottom: 10px;
-  }
-
-  .logo-left,
-  .logo-right {
-    display: flex;
     align-items: center;
+    margin: 0 20px;
   }
 
-  .logo-left {
-    img {
-      width: 141px;
-      height: 15px;
-    }
+  .text1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 200px;
   }
 
-  .logo-right {
-    img {
-      width: 103px;
-      height: 30px;
-    }
-  }
-
-  .lower {
-    display: flex;
-    justify-content: space-between;
-    font-size: 19px;
-    padding: 0 20px;
-  }
-
-  .text1,
-  .text2,
   .text3 {
-  }
-
-  .text1,
-  .text3 {
-    font-weight: 500;
-  }
-
-  .text2 {
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 600;
+    white-space: pre-line;
+    line-height: 1.6;
+    text-align: right;
+    margin-right: 50px;
   }
 `;
 
@@ -88,10 +56,12 @@ const Footer = () => {
         <img src="/img/seoultech.svg" alt="main-logo" />
       </div>
       <div className="contents">
-        <div className="lower">
-          <div className="text1">Seoul National University of Science and Technology</div>
-          <div className="text2">ITM OSS PROJECT</div>
-          <div className="text3">김도이 박신형 오은영 이한얼 황유영</div>
+        {}
+        <div>
+          <span className="text1">Seoul National University of Science and Technology</span>
+        </div>
+        <div className="text3">
+        ITM OSS PROJECT
         </div>
       </div>
     </FooterSection>

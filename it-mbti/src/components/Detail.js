@@ -11,10 +11,9 @@ const DetailContainer = styled.div`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 `;
-
 const Work = styled.h3`
   position: absolute;
-  top: 20px;
+  top: 5px;
   left: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -23,7 +22,25 @@ const Work = styled.h3`
 
 const WorkDescription = styled.p`
   position: absolute;
-  top: 60px;
+  top: 40px;
+  left: 25px;
+  right: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+`;
+const JobD = styled.h3`
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+`;
+
+const JobDescription = styled.p`
+  position: absolute;
+  top: 135px;
   left: 25px;
   right: 20px;
   font-size: 16px;
@@ -33,16 +50,16 @@ const WorkDescription = styled.p`
 
 const Job = styled.h3`
   position: absolute;
-  top: 170px;
+  top: 235px;
   left: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #333;
 `;
 
-const JobDescription = styled.p`
+const RelatedJobs = styled.p`
   position: absolute;
-  top: 210px;
+  top: 270px;
   left: 25px;
   right: 20px;
   font-size: 16px;
@@ -53,7 +70,7 @@ const JobDescription = styled.p`
 
 const Core = styled.h3`
   position: absolute;
-  top: 290px;
+  top: 310px;
   left: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -62,7 +79,7 @@ const Core = styled.h3`
 
 const CoreDescription = styled.p`
   position: absolute;
-  top: 330px;
+  top: 350px;
   left: 25px;
   font-size: 16px;
   color: #555;
@@ -70,7 +87,7 @@ const CoreDescription = styled.p`
 
 const TagsTitle = styled.h3`
   position: absolute;
-  top: 380px;
+  top: 400px;
   left: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -79,7 +96,7 @@ const TagsTitle = styled.h3`
 
 const TagsContainer = styled.div`
   position: absolute;
-  top: 440px;
+  top: 460px;
   left: 18px;
   display: flex;
   flex-wrap: wrap;
@@ -105,17 +122,23 @@ function Detail({ type }) {
         <Work>work</Work>
         <WorkDescription>
         {result.introduction || "No introduction available."}</WorkDescription>
-        <Job>related job</Job>
+        <JobD>JobDescription</JobD>
         <JobDescription>
-          {result.relatedJobs?.join(", ") || "No related jobs."}
+          {result.jobDescription || "No job description."}
         </JobDescription>
+        <Job>related job</Job>
+        <RelatedJobs>
+          {result.relatedJobs?.join(", ") || "No related jobs."}
+        </RelatedJobs>
   
         <Core>core ability</Core>
         <CoreDescription>{result.coreSkills?.join(", ") || "No core skills."}</CoreDescription>
   
         <TagsTitle>tag</TagsTitle>
         <TagsContainer>
-          <Tag>{result.tags?.join(", ") || "No tags."}</Tag>
+          {result.tags?.map((tag, index) => (
+            <Tag key={index}>{tag}</Tag>
+          )) || <Tag>No tags.</Tag>}
         </TagsContainer>
       </DetailContainer>
     );
