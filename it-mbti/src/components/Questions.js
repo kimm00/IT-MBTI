@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const QuestionContainer = styled.div`
@@ -21,7 +22,6 @@ const OptionsContainer = styled.div`
 
 const OptionButton = styled.button`
   background: ${({ $isSelected }) => ($isSelected ? "#3a7664" : "#4caf93")};
-  background: black;
   color: white;
   border: none;
   margin: 5px 0 0 0;
@@ -32,7 +32,7 @@ const OptionButton = styled.button`
   transition: background-color 0.2s;
 
   &:hover {
-    background-color: #4A79D1;
+    background-color: #4a79d1;
   }
 `;
 
@@ -40,29 +40,44 @@ const Question = ({ questionText, onAnswer }) => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const handleClick = (score) => {
-    setSelectedOption(score);
-    onAnswer(score);
+    setSelectedOption(score); // 선택된 점수 업데이트
+    onAnswer(score); // 부모로 점수 전달
   };
 
   return (
     <QuestionContainer>
       <QuestionText>{questionText}</QuestionText>
       <OptionsContainer>
-      <OptionButton $isSelected={selectedOption === 1} onClick={() => handleClick(0)}>
-        Strongly Disagree
-      </OptionButton>
-      <OptionButton $isSelected={selectedOption === 2} onClick={() => handleClick(2.5)}>
-        Disagree
-      </OptionButton>
-      <OptionButton $isSelected={selectedOption === 3} onClick={() => handleClick(5)}>
-        Neutral
-      </OptionButton>
-      <OptionButton $isSelected={selectedOption === 4} onClick={() => handleClick(7.5)}>
-        Agree
-      </OptionButton>
-      <OptionButton $isSelected={selectedOption === 5} onClick={() => handleClick(10)}>
-        Strongly Agree
-      </OptionButton>
+        <OptionButton
+          $isSelected={selectedOption === 0}
+          onClick={() => handleClick(0)}
+        >
+          Strongly Disagree
+        </OptionButton>
+        <OptionButton
+          $isSelected={selectedOption === 2.5}
+          onClick={() => handleClick(2.5)}
+        >
+          Disagree
+        </OptionButton>
+        <OptionButton
+          $isSelected={selectedOption === 5}
+          onClick={() => handleClick(5)}
+        >
+          Neutral
+        </OptionButton>
+        <OptionButton
+          $isSelected={selectedOption === 7.5}
+          onClick={() => handleClick(7.5)}
+        >
+          Agree
+        </OptionButton>
+        <OptionButton
+          $isSelected={selectedOption === 10}
+          onClick={() => handleClick(10)}
+        >
+          Strongly Agree
+        </OptionButton>
       </OptionsContainer>
     </QuestionContainer>
   );
