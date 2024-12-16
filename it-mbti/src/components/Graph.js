@@ -52,18 +52,8 @@ const Progress = styled.div`
   transition: width 0.3s ease-in-out;
 `;
 
-const Percentage = styled.span`
-  position: absolute;
-  right: 10px;
-  top: 0;
-  font-size: 0.9rem;
-  color: white;
-  font-weight: bold;
-  line-height: 20px;
-`;
-
 function Graph({ scores }) {
-  const maxScorePerType = 30;
+const maxScorePerType = 30;
   const graphData = scores.map(([type, score]) => {
     const percentage = Math.round((score / maxScorePerType) * 100);
     return {
@@ -72,6 +62,7 @@ function Graph({ scores }) {
       color: fixedColors[type],
     };
   });
+
 
   return (
     <GraphContainer>
