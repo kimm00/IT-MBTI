@@ -41,7 +41,7 @@ const FooterSection = styled.footer`
 
   .text3 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
     white-space: pre-line;
     line-height: 1.6;
     text-align: right;
