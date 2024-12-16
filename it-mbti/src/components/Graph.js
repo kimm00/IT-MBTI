@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
+const fixedColors = {
+  "Frontend Developer": "#f94144",
+  "UI/UX Designer": "#f8961e",
+  "Business Development Manager": "#f9c74f",
+  "IT Strategy Consultant": "#90be6d",
+  "DevOps Engineer": "#43aa8b",
+  "Data Analyst": "#4d908e",
+  "Backend Developer": "#577590",
+};
+
 const GraphContainer = styled.div`
   width: 640px;
   height: 436px;
@@ -10,7 +20,6 @@ const GraphContainer = styled.div`
   font-family: Arial, sans-serif;
   padding: 5px;
 `;
-
 
 const GraphItem = styled.div`
   margin: 10px;
@@ -54,20 +63,15 @@ const Percentage = styled.span`
 `;
 
 function Graph({ scores }) {
-  // 총점 계산
-  const totalScore = scores.reduce((sum, score) => sum + score[1], 0);
-
-  // 각 유형의 퍼센트 계산 (스케일 값 적용: 0, 2.5, 5, 7.5, 10)
-  const maxScorePerType = 10; // 최대 점수 (스케일에 따라 변경됨)
-  const scaledMaxTotalScore = scores.length * maxScorePerType;
-
-  const graphData = scores.map(([type, score]) => ({
-    label: type,
-    percentage: totalScore > 0 
-      ? Math.round((score / scaledMaxTotalScore) * 100) 
-      : 0,
-    color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
-  }));
+  const maxScorePerType = 30;
+  const graphData = scores.map(([type, score]) => {
+    const percentage = Math.round((score / maxScorePerType) * 100);
+    return {
+      label: type,
+      percentage: percentage,
+      color: fixedColors[type],
+    };
+  });
 
   return (
     <GraphContainer>
@@ -86,6 +90,4 @@ function Graph({ scores }) {
   );
 }
 
-
 export default Graph;
-
