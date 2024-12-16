@@ -43,11 +43,11 @@ const Progress = styled.div`
 `;
 
 function Graph({ scores }) {
-  const maxScorePerType = 30; // 각 유형의 최대 점수: 3개 질문 * 10점
+  const maxScorePerType = 30; // 각 유형당 최대 점수: 3개 질문 * 10점
 
   // 각 유형의 퍼센트 계산
   const graphData = scores.map(([type, score]) => {
-    const percentage = Math.round((score / maxScorePerType) * 100);
+    const percentage = Math.round((score / maxScorePerType) * 100); // 비율 계산
     return {
       label: type,
       percentage: percentage,
