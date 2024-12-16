@@ -25,11 +25,11 @@ const OptionButton = styled.button`
   background: black;
   color: white;
   border: none;
-  margin: 10px 0 0 0;
-  padding: 10px 20px;
+  margin: 5px 0 0 0;
+  padding: 8px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 30px;
   transition: background-color 0.2s;
 
   &:hover {
@@ -70,4 +70,3 @@ const Question = ({ questionText, onAnswer }) => {
 };
 
 export default Question;
-
