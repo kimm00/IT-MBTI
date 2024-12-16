@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const fixedColors = {
-  "Frontend Developer": "#cdb4db",
-  "Backend Developer": "#ffc8dd",
-  "UI/UX Designer": "#ffafcc",
-  "DevOps Engineer": "#bde0fe",
-  "Data Analyst": "#a2d2ff",
-  "IT Strategy Consultant": "#bbd0ff",
-  "Business Development Manager": "#b8c0ff",
+  "Frontend Developer": "#f94144",
+  "Backend Developer": "#f8961e",
+  "UI/UX Designer": "#f9c74f",
+  "DevOps Engineer": "#90be6d",
+  "Data Analyst": "#43aa8b",
+  "IT Strategy Consultant": "#4d908e",
+  "Business Development Manager": "#1d2d44",
 };
 
 const GraphContainer = styled.div`
