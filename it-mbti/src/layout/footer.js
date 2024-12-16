@@ -33,20 +33,17 @@ const FooterSection = styled.footer`
     margin: 0 20px;
   }
 
-  .text1,
+  .text1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px; 
+  }
+
   .text2 {
     font-size: 25px;
     font-weight: 600;
-    margin-right: 200px;
-  }
-
-  .text3 {
-    font-size: 14px;
-    font-weight: 400;
-    white-space: pre-line;
-    line-height: 1.6;
-    text-align: right;
-    margin-left: auto;
+    margin-left: auto; 
+    margin-right: 10px; 
   }
 `;
 
