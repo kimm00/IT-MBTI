@@ -3,16 +3,16 @@ import styled from "styled-components";
 
 const QuestionContainer = styled.div`
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 30px;
   width: 80%;
 `;
 
 const QuestionText = styled.p`
-  font-size: 25px;
+  font-size: 40px;
   color: #333;
-  margin-bottom: 15px;
+  margin: 5px 0 40px 0;
 `;
 
 const OptionsContainer = styled.div`
@@ -25,10 +25,11 @@ const OptionButton = styled.button`
   background: black;
   color: white;
   border: none;
+  margin: 10px 0 0 0;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 2rem;
   transition: background-color 0.2s;
 
   &:hover {
@@ -69,3 +70,4 @@ const Question = ({ questionText, onAnswer }) => {
 };
 
 export default Question;
+

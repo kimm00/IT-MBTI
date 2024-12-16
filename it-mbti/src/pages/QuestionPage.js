@@ -30,13 +30,13 @@ const Progress = styled.div`
 `;
 
 const ButtonContainer = styled.div`
-  margin-top: 20px;
+  margin-top: 30px;
 `;
 
 const NavButton = styled.button`
   padding: 10px 20px;
-  font-size: 1rem;
-  margin: 5px;
+  font-size: 2rem;
+  margin: 20px;
   color: black;
   background-color: white;
   border: none;
@@ -89,3 +89,4 @@ function QuestionPage() {
 }
 
 export default QuestionPage;
+
