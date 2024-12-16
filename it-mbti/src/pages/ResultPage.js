@@ -80,14 +80,11 @@ function ResultPage() {
   const scores = location.state?.scores || {};
   console.log("Received scores:", scores);
 
-  // 점수를 내림차순으로 정렬
   const sortedTypes = Object.entries(scores).sort((a, b) => b[1] - a[1]);
 
-  // 가장 높은 점수를 받은 유형들 필터링
   const highestScore = sortedTypes[0]?.[1];
   const highestTypes = sortedTypes.filter(([_, score]) => score === highestScore);
 
-  // 현재 보여줄 유형 인덱스 상태
   const [currentIndex, setCurrentIndex] = useState(0);
   const resultType = highestTypes[currentIndex]?.[0] || "Frontend Developer";
 
@@ -99,27 +96,27 @@ function ResultPage() {
     <Page>
       <Container>
 
-        {/* 고양이 컴포넌트 */}
+        {/* Cat component */}
         <CatPosition>
           <Cat title = {resultType}/>
         </CatPosition>
 
-        {/* 상세 정보 컴포넌트 */}
+        {/* Detail component */}
         <DetailPosition>
           <Detail type={resultType}/>
         </DetailPosition>
 
-        {/* 그래프 컴포넌트 */}
+        {/* Graph component */}
         <GraphPosition>
           <Graph scores={sortedTypes}/>
         </GraphPosition>
 
-        {/* 교수 컴포넌트 */}
+        {/* Professor component */}
         <ProfessorPosition>
           <Professor type={resultType} />
         </ProfessorPosition>
 
-        {/* 추천 기술 컴포넌트 */}
+        {/* Skill component */}
         <SkillPosition>
           <Skill type={resultType} />
         </SkillPosition>
@@ -135,3 +132,4 @@ function ResultPage() {
 }
 
 export default ResultPage;
+
