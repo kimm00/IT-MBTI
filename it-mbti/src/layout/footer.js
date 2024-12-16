@@ -63,11 +63,6 @@ const Footer = () => {
           <span className="text2">ITM OSS PROJECT</span>
         </div>
         <div className="text3">
-          23102003 Kim Doyi{'\n'}
-          23102009 Park Shinhyung{'\n'}
-          23102015 Oh Eunyoung{'\n'}
-          23102025 Lee Haneol{'\n'}
-          23102031 Hwang Yuyoung
         </div>
       </div>
     </FooterSection>
