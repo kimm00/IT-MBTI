@@ -9,7 +9,7 @@ const CatContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #F8BBD0;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 `;
@@ -29,7 +29,7 @@ const Description = styled.p`
   top: 150px;
   left: 30px;
 
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #555;
   text-align: center;
   margin-bottom: 20px;
