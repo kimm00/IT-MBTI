@@ -4,16 +4,16 @@ import Cat from '../components/Cat';
 import results from '../data/results.json';
 
 // Mocking the image for the test environment
-jest.mock('../data/results.json', () => [
+jest.mock('../../data/results.json', () => [
   {
-    type: 'Persian',
-    catType: 'Fluffy Persian Cat',
-    catImage: '/images/persian-cat.jpg',
+    type: 'UI/UX Designer',
+    catType: 'Artistic Scottish Fold Type',
+    catImage: '/img/cat/cat1.png',
   },
   {
-    type: 'Siamese',
-    catType: 'Elegant Siamese Cat',
-    catImage: '/images/siamese-cat.jpg',
+    type: 'Frontend Developer',
+    catType: 'Cool-Headed Oriental Shorthair Type',
+    catImage: '/img/cat/cat2.png',
   },
 ]);
 
