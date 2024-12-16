@@ -7,8 +7,8 @@ const fixedColors = {
   "UI/UX Designer": "#ffafcc",
   "DevOps Engineer": "#bde0fe",
   "Data Analyst": "#a2d2ff",
-  "IT Consultant": "#bbd0ff",
-  "Business Analyst": "#b8c0ff",
+  "IT Strategic Consultant": "#bbd0ff",
+  "Business Development Analyst": "#b8c0ff",
 };
 
 const GraphContainer = styled.div`
@@ -64,7 +64,6 @@ const Percentage = styled.span`
 
 function Graph({ scores }) {
   const maxScorePerType = 30;
-
   const graphData = scores.map(([type, score]) => {
     const percentage = Math.round((score / maxScorePerType) * 100);
     return {
