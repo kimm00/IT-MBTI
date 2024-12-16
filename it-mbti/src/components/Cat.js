@@ -28,8 +28,8 @@ const Description = styled.p`
   position: absolute;
   top: 150px;
   left: 30px;
-
   font-size: 1.3rem;
+  font-weight: bold;
   color: #555;
   text-align: center;
   margin-bottom: 20px;
