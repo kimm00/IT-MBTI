@@ -4,14 +4,16 @@ import styled from "styled-components";
 import AboutModal from "../components/AboutModal";
 
 const HeaderSection = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   font-family: "GmarketSans";
-  background: #E8EAF2;
+  background: #DFE2EF;
   color: black;
 
   @media (max-width: 768px) {
@@ -38,7 +40,7 @@ const Logo = styled.div`
 
 const Nav = styled.nav`
   display: flex;
-  gap: 50px;
+  gap: 70px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -52,6 +54,7 @@ const NavLink = styled(Link)`
   color: black;
   text-decoration: none;
   transition: color 0.3s;
+  margin-right:100px;
 
   &:hover {
     color: #d1d0ff;
@@ -63,6 +66,7 @@ const NavItem = styled.span`
   color: black;
   cursor: pointer;
   transition: color 0.3s;
+  margin-right:70px;
 
   &:hover {
     color: #d1d0ff;

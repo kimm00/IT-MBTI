@@ -11,7 +11,6 @@ const GraphContainer = styled.div`
   padding: 5px;
 `;
 
-
 const GraphItem = styled.div`
   margin: 10px;
 `;
@@ -43,24 +42,29 @@ const Progress = styled.div`
   transition: width 0.3s ease-in-out;
 `;
 
-const Percentage = styled.span`
-  position: absolute;
-  right: 10px;
-  top: 0;
-  font-size: 0.9rem;
-  color: white;
-  font-weight: bold;
-  line-height: 20px;
-`;
-
 function Graph({ scores }) {
-  // 총점 계산
-  const totalScore = scores.reduce((sum, score) => sum + score[1], 0);
+  // 스케일 값 적용 (0, 2.5, 5, 7.5, 10)
+  const scaleValues = [0, 2.5, 5, 7.5, 10];
+  
+  // 점수를 스케일에 맞게 변환
+  const adjustedScores = scores.map(([type, score]) => {
+    // 가장 가까운 스케일 값 찾기
+    const scaledScore = scaleValues.reduce((prev, curr) =>
+      Math.abs(curr - score) < Math.abs(prev - score) ? curr : prev
+    );
+    return [type, scaledScore];
+  });
 
-  // 각 유형의 퍼센트 계산
-  const graphData = scores.map(([type, score]) => ({
+  // 총점 계산 (스케일이 적용된 값 사용)
+  const totalScore = adjustedScores.reduce((sum, score) => sum + score[1], 0);
+  const maxScorePerType = 10; // 스케일의 최대 값
+  const scaledMaxTotalScore = adjustedScores.length * maxScorePerType;
+
+  // 각 점수의 퍼센트 계산
+  const graphData = adjustedScores.map(([type, score]) => ({
     label: type,
-    percentage: totalScore > 0 ? Math.round((score / totalScore) * 100) : 0,
+    percentage:
+      totalScore > 0 ? Math.round((score / scaledMaxTotalScore) * 100) : 0,
     color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, // 랜덤 색상
   }));
 
@@ -73,9 +77,7 @@ function Graph({ scores }) {
             <LabelText>{data.percentage}%</LabelText>
           </GraphLabel>
           <ProgressBar>
-            <Progress percentage={data.percentage} color={data.color}>
-              <Percentage>{data.percentage}%</Percentage>
-            </Progress>
+            <Progress percentage={data.percentage} color={data.color} />
           </ProgressBar>
         </GraphItem>
       ))}
@@ -84,3 +86,4 @@ function Graph({ scores }) {
 }
 
 export default Graph;
+

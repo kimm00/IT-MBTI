@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import { useNavigate, useLocation } from "react-router-dom";
 
+// 번갈아 나오는 텍스트 애니메이션
 const fadeInOut = keyframes`
   0% { opacity: 0; }
   50% { opacity: 1; }
@@ -14,7 +15,7 @@ const Page = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
 
 const LoadingText = styled.h1`
@@ -23,11 +24,6 @@ const LoadingText = styled.h1`
   margin-bottom: 20px;
 `;
 
-const TypeText = styled.div`
-  font-size: 1.8rem;
-  color: #6c63ff;
-  animation: ${fadeInOut} 2s infinite;
-`;
 
 const Spinner = styled.div`
   border: 8px solid #f3f3f3;
@@ -58,7 +54,7 @@ function LoadingPage() {
 
   return (
       <Page>
-        <LoadingText>어떤 유형이 나올까요? 🤔</LoadingText>
+        <LoadingText>What type will it be? 🤔</LoadingText>
         <Spinner />
       </Page>
     );

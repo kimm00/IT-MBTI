@@ -10,6 +10,7 @@ const Page = styled.div`
   height: 100vh;
   background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
+
 const Container = styled.div`
   position: relative;
   width: 100%;
@@ -17,6 +18,7 @@ const Container = styled.div`
   background: rgba(232, 234, 243, 0);
   border-radius: 10px;
 `;
+
 const Title2 = styled.h1`
   position: absolute;
   top: 141px;
@@ -34,10 +36,11 @@ const Title = styled.h1`
   left: 79px;
   font-size: 100px;
   color: Black;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family: "sans-serif";
   font-weight: 900;
 `;
+
 const Description = styled.h1`
   position: absolute;
   width: 700px;
@@ -45,14 +48,13 @@ const Description = styled.h1`
   left: 79px;
   font-size: 30px;
   color: black;
-  margin-bottom: 20px;
+  margin-top: 40px;
   font-family: "GmarketSans";
   font-weight: 500;
-  
 `;
 
 const Deco2 = styled.img`
- position: absolute;
+  position: absolute;
   top: 123px;
   left: 793px;
   width: 648px;
@@ -61,7 +63,6 @@ const Deco2 = styled.img`
 `;
 
 const StartButton = styled.button`
-
   position: absolute;
   top: 600px;
   left: 71px;
@@ -87,9 +88,13 @@ function StartPage() {
     <Page>
       <Container>
         <Title2>What is your</Title2>
-        <Title>IT-MBTI 👩🏻‍💻 </Title>
-        <Description>This project is a web application for conducting an IT MBTI test, helping users discover their aptitudes and career paths in the IT field. With an intuitive UI and results page.</Description>
-        <Deco2 src="/img/python.png" alt="deco2"/>
+        <Title>IT-MBTI</Title>
+        <Description>
+          This project is a web application for conducting an IT MBTI test,
+          helping users discover their aptitudes and career paths in the IT
+          field. With an intuitive UI and results page.
+        </Description>
+        <Deco2 src="/img/catimage.png" alt="deco2" />
         <StartButton onClick={() => navigate("/question")}>Start</StartButton>
       </Container>
     </Page>

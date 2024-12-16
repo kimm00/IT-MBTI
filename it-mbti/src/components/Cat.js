@@ -38,9 +38,9 @@ const Description = styled.p`
 const CatImage = styled.img`
   position: absolute;
   top: 32px;
-  left: 397px;
-  width: 236px;
-  height: 267px;
+  left: 380px;
+  width: 270px;
+  height: 280px;
   object-fit: cover;
   
 `;
@@ -52,7 +52,7 @@ function Cat({ title }) {
     <CatContainer>
       <Title>{result.type || "Unknown Title"}</Title>
       <Description>{result.catType || "Unknown Cat Type"}</Description>
-      <CatImage src="/img/startcat.png" alt="Cat" />
+      <CatImage src={result.catImage} alt={result.catImage} />
     </CatContainer>
   );
 }
