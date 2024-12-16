@@ -1,6 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
+const fixedColors = {
+  "Frontend Developer": "#cdb4db", 
+  "Backend Developer": "#ffc8dd", 
+  "UI/UX Designer": "#ffafcc",  
+  "DevOps Engineer": "#bde0fe", 
+  "Data Analyst": "#a2d2ff",  
+  "IT Consultant": "#bbd0ff",  
+  "Business Analyst": "#b8c0ff", 
+};
+
 const GraphContainer = styled.div`
   width: 640px;
   height: 436px;
@@ -10,7 +20,6 @@ const GraphContainer = styled.div`
   font-family: Arial, sans-serif;
   padding: 5px;
 `;
-
 
 const GraphItem = styled.div`
   margin: 10px;
@@ -53,19 +62,13 @@ const Percentage = styled.span`
   line-height: 20px;
 `;
 
-function Graph({ scores }) {
-
-  const totalScore = scores.reduce((sum, score) => sum + score[1], 0);
-
-  const maxScorePerType = 10;
-  const scaledMaxTotalScore = 3 * maxScorePerType;
+  function Graph({ scores }) {
+  const maxScorePerType = 30;
 
   const graphData = scores.map(([type, score]) => ({
     label: type,
-    percentage: totalScore > 0 
-      ? Math.round((score / scaledMaxTotalScore) * 100) 
-      : 0,
-    color: `#${Math.floor(Math.random() * 16777215).toString(16)}`,
+    percentage: Math.round((score / maxScorePerType) * 100),
+    color: fixedColors[type] || "#6c63ff",
   }));
 
   return (
