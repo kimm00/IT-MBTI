@@ -1,4 +1,3 @@
-// AboutModal.test.js
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import AboutModal from './AboutModal';
@@ -6,24 +5,35 @@ import AboutModal from './AboutModal';
 describe('AboutModal Component', () => {
   const mockOnClose = jest.fn();
 
-  test('모달이 정상적으로 렌더링되는지 확인', () => {
-    render(<AboutModal show={true} onClose={mockOnClose} />);
-    
-    expect(screen.getByText('About IT-MBTI')).toBeInTheDocument();
+  beforeEach(() => {
+    // 각 테스트 실행 전 mock 함수 초기화
+    mockOnClose.mockClear();
   });
 
-  test('닫기 버튼 클릭 시 onClose 함수가 호출되는지 확인', () => {
-    render(<AboutModal show={true} onClose={mockOnClose} />);
+  test('Verify that modals are rendered normally', () => {
+    render(<AboutModal onClose={mockOnClose} />);
+
+    expect(screen.getByText('About IT-MBTI')).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        /IT-MBTI helps you discover your ideal career path in the IT field through a personality-based career test./i
+      )
+    ).toBeInTheDocument();
+  });
+
+  test('Verify the close button is rendered and the text is correct', () => {
+    render(<AboutModal onClose={mockOnClose} />);
+
+    const closeButton = screen.getByRole('button', { name: /close/i });
+    expect(closeButton).toBeInTheDocument();
+  });
+
+  test('Verify that the onClose function is invoked when the Close button is clicked', () => {
+    render(<AboutModal onClose={mockOnClose} />);
 
     const closeButton = screen.getByRole('button', { name: /close/i });
     fireEvent.click(closeButton);
 
     expect(mockOnClose).toHaveBeenCalledTimes(1);
-  });
-
-  test('show prop이 false일 때 모달이 보이지 않는지 확인', () => {
-    render(<AboutModal show={false} onClose={mockOnClose} />);
-
-    expect(screen.queryByText('About IT-MBTI')).not.toBeInTheDocument();
   });
 });
