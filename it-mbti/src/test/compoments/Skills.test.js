@@ -10,7 +10,7 @@ jest.mock('../../data/results.json', () => [
       {
         name: 'Jenkins',
         image: '/img/skill/jenkins.png',
-        website: 'https://www.jenkins.io/',
+        website: 'https://www.Jenkins.io/',
       },
       {
         name: 'Docker',

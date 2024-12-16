@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Professor from '../../components/Professor';
 
+
 // Mocking the results data
 jest.mock('../../data/results.json', () => [
   {
