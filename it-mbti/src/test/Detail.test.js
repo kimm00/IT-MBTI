@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Detail from '../../components/Detail';
-import results from '../../data/results.json';
+import Detail from '../components/Detail';
+import results from '../data/results.json';
 
 // Mocking the results data
 jest.mock('../data/results.json', () => [

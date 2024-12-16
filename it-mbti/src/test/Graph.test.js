@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Graph from '../../components/Graph';
+import Graph from '../components/Graph';
 
 describe('Graph Component', () => {
   test('Verify that components are rendered normally', () => {
