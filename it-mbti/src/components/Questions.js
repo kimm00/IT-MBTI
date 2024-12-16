@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 
 const QuestionContainer = styled.div`
@@ -49,19 +48,19 @@ const Question = ({ questionText, onAnswer }) => {
     <QuestionContainer>
       <QuestionText>{questionText}</QuestionText>
       <OptionsContainer>
-      <OptionButton $isSelected={selectedOption === 1} onClick={() => handleClick(1)}>
+      <OptionButton $isSelected={selectedOption === 1} onClick={() => handleClick(0)}>
         Strongly Disagree
       </OptionButton>
-      <OptionButton $isSelected={selectedOption === 2} onClick={() => handleClick(2)}>
+      <OptionButton $isSelected={selectedOption === 2} onClick={() => handleClick(2.5)}>
         Disagree
       </OptionButton>
-      <OptionButton $isSelected={selectedOption === 3} onClick={() => handleClick(3)}>
+      <OptionButton $isSelected={selectedOption === 3} onClick={() => handleClick(5)}>
         Neutral
       </OptionButton>
-      <OptionButton $isSelected={selectedOption === 4} onClick={() => handleClick(4)}>
+      <OptionButton $isSelected={selectedOption === 4} onClick={() => handleClick(7.5)}>
         Agree
       </OptionButton>
-      <OptionButton $isSelected={selectedOption === 5} onClick={() => handleClick(5)}>
+      <OptionButton $isSelected={selectedOption === 5} onClick={() => handleClick(10)}>
         Strongly Agree
       </OptionButton>
       </OptionsContainer>
@@ -70,3 +69,4 @@ const Question = ({ questionText, onAnswer }) => {
 };
 
 export default Question;
+
