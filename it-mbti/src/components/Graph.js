@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const fixedColors = {
   "Frontend Developer": "#f94144",
-  "Backend Developer": "#f8961e",
-  "UI/UX Designer": "#f9c74f",
-  "DevOps Engineer": "#90be6d",
-  "Data Analyst": "#43aa8b",
-  "IT Strategy Consultant": "#4d908e",
-  "Business Development Manager": "#1d2d44",
+  "UI/UX Designer": "#f8961e",
+  "Business Development Manager": "#f9c74f",
+  "IT Strategy Consultant": "#90be6d",
+  "DevOps Engineer": "#43aa8b",
+  "Data Analyst": "#4d908e",
+  "Backend Developer": "#577590",
 };
 
 const GraphContainer = styled.div`
