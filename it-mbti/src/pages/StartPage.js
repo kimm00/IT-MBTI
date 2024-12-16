@@ -36,7 +36,7 @@ const Title = styled.h1`
   left: 79px;
   font-size: 100px;
   color: Black;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   font-family: "sans-serif";
   font-weight: 900;
 `;
@@ -64,7 +64,7 @@ const Deco2 = styled.img`
 
 const StartButton = styled.button`
   position: absolute;
-  top: 600px;
+  top: 620px;
   left: 71px;
   width: 297px;
   height: 72px;
@@ -101,4 +101,4 @@ function StartPage() {
   );
 }
 
-export default StartPage;
+export default StartPage ;

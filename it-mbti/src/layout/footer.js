@@ -33,20 +33,19 @@ const FooterSection = styled.footer`
     margin: 0 20px;
   }
 
-  .text1,
-  .text2 {
+  .text1{
     font-size: 25px;
     font-weight: 600;
     margin-right: 200px;
   }
 
   .text3 {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
     white-space: pre-line;
     line-height: 1.6;
     text-align: right;
-    margin-left: auto;
+    margin-right: 50px;
   }
 `;
 
@@ -60,14 +59,9 @@ const Footer = () => {
         {}
         <div>
           <span className="text1">Seoul National University of Science and Technology</span>
-          <span className="text2">ITM OSS PROJECT</span>
         </div>
         <div className="text3">
-          23102003 Kim Doyi{'\n'}
-          23102009 Park Shinhyung{'\n'}
-          23102015 Oh Eunyoung{'\n'}
-          23102025 Lee Haneol{'\n'}
-          23102031 Hwang Yuyoung
+        ITM OSS PROJECT
         </div>
       </div>
     </FooterSection>
